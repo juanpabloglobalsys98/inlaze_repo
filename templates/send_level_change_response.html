@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="{{ LANGUAGE }}">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>{{ TITLE }}</title>
+</head>
+
+<body>
+  <table style="width: 480px; margin: 0 auto;">
+    <tbody>
+      <tr>
+        <td>
+          <div style="padding: 1rem;">
+            <div style="
+                        font-family: Arial, Helvetica, sans-serif;
+                    ">
+              <div>
+                <p>{{GREETING}}, {{ USER }}</p>
+              </div>
+              <div>
+                <h1>{{SUBJECT}}</h1>
+              </div>
+
+              <div>
+                <span>{{MESSAGE}}</span>
+              </div>
+              <div style="margin-bottom: 30px">
+                <p>
+                </p>
+              </div>
+              <div>
+                <p style="margin-top: 0">
+                  {{FOOTER_MESSAGE_PART_1}}<br />
+                  {{FOOTER_MESSAGE_PART_2}}
+                </p>
+                <img width="125px" src="{{TEMPLATE_IMAGE_INLAZZ}}" alt="logo" />
+              </div>
+              <div style="text-align: center; margin-top: 50px; font-size: 12px">
+                <span>© inlaze {% now "Y" %}. {{FOOTER_MESSAGE_PART_3}}</span>
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+
+</html>

@@ -1,0 +1,3 @@
+from .registration_feedback_bank import RegistrationFeedbackBank
+from .registration_feedback_basic_info import RegistrationFeedbackBasicInfo
+from .registration_feedback_documents import RegistrationFeedbackDocuments

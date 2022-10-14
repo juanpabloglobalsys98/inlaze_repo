@@ -1,0 +1,3437 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-12 10:50-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: api_admin/helpers/countries.py:9 core/helpers/countries.py:26
+#: core/helpers/countries.py:78
+msgid "Brazil"
+msgstr "Brasil"
+
+#: api_admin/helpers/countries.py:10 core/helpers/countries.py:12
+#: core/helpers/countries.py:28 core/helpers/countries.py:96
+msgid "Colombia"
+msgstr "Colômbia"
+
+#: api_admin/helpers/countries.py:11 core/helpers/countries.py:14
+#: core/helpers/countries.py:32 core/helpers/countries.py:191
+msgid "Mexico"
+msgstr "México"
+
+#: api_admin/helpers/countries.py:12 core/helpers/countries.py:15
+#: core/helpers/countries.py:35 core/helpers/countries.py:222
+msgid "Peru"
+msgstr "Peru"
+
+#: api_admin/helpers/countries.py:13 core/helpers/countries.py:13
+#: core/helpers/countries.py:37 core/helpers/countries.py:257
+msgid "Spain"
+msgstr "Espanha"
+
+#: api_admin/models/payment_management/withdrawal_history.py:26
+#: api_partner/models/partner_info_change_request/name_change_request.py:13
+msgid "first name"
+msgstr "primeiro nome"
+
+#: api_admin/models/payment_management/withdrawal_history.py:27
+#: api_partner/models/partner_info_change_request/name_change_request.py:14
+msgid "second name"
+msgstr "segundo nome"
+
+#: api_admin/models/payment_management/withdrawal_history.py:28
+#: api_partner/models/partner_info_change_request/name_change_request.py:15
+msgid "last name"
+msgstr "sobrenome"
+
+#: api_admin/models/payment_management/withdrawal_history.py:29
+#: api_partner/models/partner_info_change_request/name_change_request.py:16
+msgid "second last name"
+msgstr ""
+
+#: api_admin/serializers/authentication/validation_code.py:22
+#: api_partner/serializers/authentication/validation_code.py:20
+#: api_partner/serializers/authentication/validation_code_register.py:66
+msgid "That email was already taken"
+msgstr ""
+
+#: api_admin/serializers/authentication/validation_code.py:33
+#: api_partner/serializers/authentication/validation_code.py:33
+msgid "The email cannot have one validation code with the same code"
+msgstr ""
+
+#: api_admin/serializers/referred/referred.py:37
+msgid "Cannot be referred himself"
+msgstr ""
+
+#: api_admin/serializers/referred/referred.py:40
+msgid "referred by with id {} not found"
+msgstr ""
+
+#: api_admin/serializers/reports_management/link.py:331
+msgid "The link has an user assigned"
+msgstr ""
+
+#: api_admin/views/account_report/account_report.py:139
+#: api_admin/views/account_report/account_report.py:330
+#: api_admin/views/account_report/account_report.py:599
+#: api_admin/views/authentication/partners.py:2005
+#: api_admin/views/cpa_management/cpa_management.py:95
+#: api_admin/views/cpa_management/cpa_management.py:240
+#: api_admin/views/cpa_management/cpa_management.py:845
+#: api_admin/views/member_report/member_report.py:169
+#: api_admin/views/member_report/member_report.py:817
+#: api_admin/views/member_report/member_report.py:1214
+#: api_admin/views/member_report/member_report.py:1336
+#: api_admin/views/member_report/member_report_multi_fx.py:131
+#: api_admin/views/member_report/member_report_multi_fx.py:846
+#: api_admin/views/partner/partner.py:55 api_admin/views/partner/partner.py:142
+#: api_admin/views/profile/profile.py:56 api_admin/views/profile/profile.py:123
+#: api_admin/views/reports_management/bookmaker.py:70
+#: api_admin/views/reports_management/bookmaker.py:150
+#: api_admin/views/reports_management/fx_conversions.py:42
+#: api_admin/views/reports_management/link.py:316
+#: api_admin/views/reports_management/link.py:1060
+#: api_admin/views/reports_management/link.py:1171
+#: api_admin/views/reports_management/partner_link_accumulated.py:54
+#: api_admin/views/tax_fx/tax_fx.py:37 api_admin/views/tax_fx/tax_fx.py:83
+#: api_admin/views/tax_fx/tax_fx.py:137 api_admin/views/token/token.py:72
+#: api_admin/views/token/token.py:143 api_admin/views/token/token_admin.py:58
+#: api_admin/views/token/token_admin.py:105
+#: api_admin/views/translate_message/translate_message.py:390
+#: api_partner/views/account_report/account_report.py:59
+#: api_partner/views/account_report/account_report.py:180
+#: api_partner/views/account_report/account_report.py:334
+#: api_partner/views/member_report/member_report.py:131
+#: api_partner/views/member_report/member_report.py:461
+#: api_partner/views/member_report/member_report_referred.py:132
+#: api_partner/views/panel/panel.py:63
+#: api_partner/views/reports_management/campaign.py:93
+#: api_partner/views/reports_management/links.py:74
+msgid "Invalid input"
+msgstr "Entrada inválida"
+
+#: api_admin/views/account_report/account_report.py:478
+msgid "This user doesnt has permission to visualitazion"
+msgstr "Este usuário não tem permissão para visualitazion"
+
+#: api_admin/views/admin.py:44 api_admin/views/admin.py:87
+msgid "Invalid token"
+msgstr "Ficha inválida"
+
+#: api_admin/views/admin.py:45 api_admin/views/admin.py:88
+msgid "Invalid token or it's expired"
+msgstr "Ficha inválida ou expirou"
+
+#: api_admin/views/adviser/adviser_user.py:286
+#: api_admin/views/adviser/adviser_user.py:424
+#: api_admin/views/reports_management/partner_link_accumulated.py:100
+#: api_admin/views/roles/roles.py:83 api_admin/views/roles/roles.py:155
+msgid "Internal Error"
+msgstr ""
+
+#: api_admin/views/adviser/adviser_user.py:637
+#: api_admin/views/level_percentage_base/level_base.py:155
+#: api_admin/views/partner_bank/partner_account_bank.py:234
+#: api_admin/views/referred/referred_user.py:191
+#: api_admin/views/translate_message/translate_message.py:306
+#: api_admin/views/translate_message/translate_message.py:487
+msgid "not input data for patch"
+msgstr ""
+
+#: api_admin/views/adviser/adviser_user.py:658
+#: api_admin/views/reports_management/link.py:411
+msgid "Partner dont exists in DB"
+msgstr ""
+
+#: api_admin/views/adviser/adviser_user.py:671
+msgid "Adviser dont exists in DB"
+msgstr ""
+
+#: api_admin/views/adviser/adviser_user.py:686
+msgid "You cannot edit percentage with adviser null"
+msgstr ""
+
+#: api_admin/views/authentication/accept_partners.py:38
+#: api_admin/views/authentication/accept_partners.py:54
+msgid "[log_up_completed] Account ready to operate"
+msgstr ""
+
+#: api_admin/views/authentication/accept_partners.py:40
+#: api_admin/views/authentication/accept_partners.py:41
+#: api_admin/views/authentication/accept_partners.py:56
+#: api_admin/views/authentication/accept_partners.py:57
+msgid "Welcome to Inlazz"
+msgstr ""
+
+#: api_admin/views/authentication/accept_partners.py:42
+#: api_admin/views/authentication/accept_partners.py:58
+msgid ""
+"We welcome you to Inlazz. your partner account it is ready, you can Access "
+"to the platform through the following link"
+msgstr ""
+
+#: api_admin/views/authentication/accept_partners.py:43
+#: api_admin/views/authentication/accept_partners.py:59
+msgid "Login"
+msgstr "Faça o login"
+
+#: api_admin/views/authentication/accept_partners.py:44
+#: api_admin/views/authentication/accept_partners.py:60
+#: api_partner/views/authentication/generate_code.py:343
+#: api_partner/views/authentication/generate_code.py:1018
+#: api_partner/views/authentication/log_up.py:1117
+msgid ""
+"We are sending this email to keep you informed about your Inlazz account"
+msgstr ""
+"Estamos enviando este e-mail para mantê-lo informado sobre sua conta Inlazz"
+
+#: api_admin/views/authentication/accept_partners.py:147
+#: api_admin/views/authentication/accept_partners.py:364
+#: api_admin/views/authentication/accept_partners.py:583
+#: api_admin/views/authentication/decline_partners.py:73
+#: api_admin/views/authentication/decline_partners.py:155
+#: api_admin/views/authentication/decline_partners.py:356
+#: api_admin/views/authentication/decline_partners.py:435
+#: api_admin/views/authentication/decline_partners.py:639
+#: api_admin/views/authentication/decline_partners.py:720
+msgid "There is not such partner in the system"
+msgstr "Não existe esse parceiro no sistema"
+
+#: api_admin/views/authentication/accept_partners.py:166
+#: api_admin/views/authentication/accept_partners.py:383
+#: api_admin/views/authentication/accept_partners.py:597
+#: api_admin/views/authentication/decline_partners.py:174
+#: api_admin/views/authentication/decline_partners.py:454
+#: api_admin/views/authentication/decline_partners.py:739
+msgid "Partner not have the expected state TO BE VERIFIED"
+msgstr "O parceiro não tem o estado esperado para ser VERIFICADO"
+
+#: api_admin/views/authentication/accept_partners.py:185
+msgid "Partner basic info is alredy accepted"
+msgstr "As informações básicas do parceiro já são aceitas"
+
+#: api_admin/views/authentication/accept_partners.py:296
+#: api_admin/views/authentication/accept_partners.py:519
+#: api_admin/views/authentication/accept_partners.py:723
+#: api_admin/views/authentication/generate_validation_code.py:167
+#: api_partner/views/authentication/log_up.py:2725
+msgid "Error at send email"
+msgstr "Erro no envio de e-mail"
+
+#: api_admin/views/authentication/accept_partners.py:402
+msgid "Partner bank is alredy accepted"
+msgstr "O banco parceiro já é aceito"
+
+#: api_admin/views/authentication/accept_partners.py:616
+msgid "Partner documents is alredy accepted"
+msgstr "Documentos de parceiros já são aceitos"
+
+#: api_admin/views/authentication/decline_partners.py:92
+msgid "There is not feedback with basic info for that user in the system"
+msgstr "Não há feedback com informações básicas para esse usuário no sistema"
+
+#: api_admin/views/authentication/decline_partners.py:374
+msgid "There is not feedback with bank for that user in the system"
+msgstr "Não há feedback com o banco para esse usuário no sistema"
+
+#: api_admin/views/authentication/decline_partners.py:658
+msgid "There is not feedback with documents for that user in the system"
+msgstr "Não há feedback com documentos para esse usuário no sistema"
+
+#: api_admin/views/authentication/generate_validation_code.py:65
+#: api_partner/views/authentication/generate_code.py:107
+msgid "That account does not exist"
+msgstr "Essa conta não existe"
+
+#: api_admin/views/authentication/generate_validation_code.py:119
+#: api_partner/views/authentication/generate_code.py:144
+#: api_partner/views/authentication/generate_code.py:194
+msgid "Validation code"
+msgstr "Código de validação"
+
+#: api_admin/views/authentication/generate_validation_code.py:126
+#: api_admin/views/authentication/partners.py:1076
+#: api_admin/views/authentication/partners.py:1328
+#: api_admin/views/authentication/partners.py:1580
+#: api_admin/views/authentication/partners.py:1839
+#: api_partner/views/authentication/generate_code.py:159
+#: api_partner/views/authentication/generate_code.py:209
+#: api_partner/views/authentication/generate_code.py:336
+#: core/helpers/email_thread.py:49
+msgid "Hi"
+msgstr "olá"
+
+#: api_admin/views/authentication/generate_validation_code.py:127
+#: api_partner/views/authentication/generate_code.py:1007
+msgid "Greetings, "
+msgstr ""
+
+#: api_admin/views/authentication/generate_validation_code.py:130
+#: api_admin/views/authentication/generate_validation_code.py:137
+#: api_partner/views/authentication/generate_code.py:158
+#: api_partner/views/authentication/generate_code.py:161
+#: api_partner/views/authentication/generate_code.py:208
+#: api_partner/views/authentication/generate_code.py:340
+#: api_partner/views/authentication/generate_code.py:1010
+#: api_partner/views/authentication/log_up.py:1114
+msgid "Your validation code is"
+msgstr "Seu código de validação é"
+
+#: api_admin/views/authentication/generate_validation_code.py:132
+#: api_partner/views/authentication/generate_code.py:162
+msgid "Remember your password must meet next requirements:"
+msgstr "Lembre-se de que sua senha deve atender às próximas exigências:"
+
+#: api_admin/views/authentication/generate_validation_code.py:133
+#: api_partner/views/authentication/generate_code.py:163
+msgid "Minimum 8 characters length"
+msgstr "Comprimento mínimo de 8 caracteres"
+
+#: api_admin/views/authentication/generate_validation_code.py:134
+#: api_partner/views/authentication/generate_code.py:164
+msgid "At least 1 uppercase character"
+msgstr "Pelo menos 1 caractere em maiúsculas"
+
+#: api_admin/views/authentication/generate_validation_code.py:135
+#: api_partner/views/authentication/generate_code.py:165
+msgid "At least 1 lowercase character"
+msgstr "Pelo menos 1 caractere em letras minúsculas"
+
+#: api_admin/views/authentication/generate_validation_code.py:136
+#: api_partner/views/authentication/generate_code.py:166
+#: api_partner/views/authentication/generate_code.py:346
+#: api_partner/views/authentication/generate_code.py:1016
+msgid "At least 1 special character (@#*_)"
+msgstr "Pelo menos 1 personagem especial (@#**_)"
+
+#: api_admin/views/authentication/generate_validation_code.py:138
+#: api_partner/views/authentication/generate_code.py:1020
+msgid ""
+"If you have not requested a new password, you can ignore this email. Your "
+"current password will continue to work."
+msgstr ""
+
+#: api_admin/views/authentication/generate_validation_code.py:139
+#: api_admin/views/authentication/partners.py:1085
+#: api_admin/views/authentication/partners.py:1337
+#: api_admin/views/authentication/partners.py:1589
+#: api_admin/views/authentication/partners.py:1847
+#: api_partner/views/authentication/generate_code.py:173
+#: api_partner/views/authentication/generate_code.py:216
+#: api_partner/views/authentication/generate_code.py:350
+#: api_partner/views/authentication/generate_code.py:1021
+msgid "Inlazz team"
+msgstr "Equipe Inlazz"
+
+#: api_admin/views/authentication/generate_validation_code.py:140
+#: api_admin/views/authentication/generate_validation_code.py:154
+#: api_partner/views/authentication/generate_code.py:178
+#: api_partner/views/authentication/generate_code.py:355
+#: api_partner/views/authentication/generate_code.py:1022
+msgid "© Inlazz 2022. All rights reserved."
+msgstr ""
+
+#: api_admin/views/authentication/generate_validation_code.py:145
+msgid "*Do not reply this email. If you have any question contact us"
+msgstr ""
+"*Não responda a este e-mail. Se você tiver alguma dúvida, entre em contato "
+"com nosso"
+
+#: api_admin/views/authentication/generate_validation_code.py:148
+#: api_admin/views/authentication/partners.py:1087
+#: api_admin/views/authentication/partners.py:1339
+#: api_admin/views/authentication/partners.py:1591
+#: api_admin/views/authentication/partners.py:1849
+#: api_partner/views/authentication/generate_code.py:175
+#: api_partner/views/authentication/generate_code.py:218
+#: api_partner/views/authentication/generate_code.py:352
+msgid "Customer service."
+msgstr "Atendimento ao cliente."
+
+#: api_admin/views/authentication/generate_validation_code.py:150
+#: api_admin/views/authentication/partners.py:1088
+#: api_admin/views/authentication/partners.py:1340
+#: api_admin/views/authentication/partners.py:1592
+#: api_admin/views/authentication/partners.py:1850
+#: api_partner/views/authentication/generate_code.py:176
+#: api_partner/views/authentication/generate_code.py:219
+#: api_partner/views/authentication/generate_code.py:353
+msgid "For more information about your account"
+msgstr "Para mais informações sobre sua conta"
+
+#: api_admin/views/authentication/generate_validation_code.py:153
+#: api_admin/views/authentication/partners.py:1089
+#: api_admin/views/authentication/partners.py:1341
+#: api_admin/views/authentication/partners.py:1593
+#: api_admin/views/authentication/partners.py:1851
+#: api_partner/views/authentication/generate_code.py:177
+#: api_partner/views/authentication/generate_code.py:220
+#: api_partner/views/authentication/generate_code.py:354
+msgid "Access here"
+msgstr "Acesso aqui"
+
+#: api_admin/views/authentication/inactive_active_code_reason_management.py:163
+msgid "There is not such inactive/active code reason in the system"
+msgstr "Não existe tal motivo de código inativo/ativo no sistema"
+
+#: api_admin/views/authentication/log_in.py:55
+msgid "There is not such user or the password is invalid"
+msgstr "Não existe tal usuário ou a senha é inválida"
+
+#: api_admin/views/authentication/log_in.py:64
+msgid "Your user is not activated in the system"
+msgstr "Seu usuário não é ativado no sistema"
+
+#: api_admin/views/authentication/log_in.py:72
+msgid "Your user is banned, contact an administrator"
+msgstr "Seu usuário é banido, entre em contato com um administrador"
+
+#: api_admin/views/authentication/log_up.py:169
+#: api_admin/views/authentication/partners.py:454
+#: api_admin/views/authentication/partners.py:612
+#: api_admin/views/authentication/partners.py:757
+#: api_admin/views/authentication/partners.py:868
+#: api_admin/views/authentication/partners.py:993
+#: api_admin/views/authentication/partners.py:1194
+#: api_admin/views/authentication/partners.py:1251
+#: api_admin/views/authentication/partners.py:1447
+#: api_admin/views/authentication/partners.py:1501
+#: api_admin/views/authentication/partners.py:1700
+#: api_admin/views/authentication/partners.py:1756
+#: api_admin/views/authentication/partners.py:1959
+#: api_admin/views/authentication/password_recovery.py:163
+#: api_partner/views/authentication/validate_password_recovery_code.py:109
+msgid "There is not such user in the system"
+msgstr "Não existe tal usuário no sistema"
+
+#: api_admin/views/authentication/partners.py:221
+#: api_admin/views/member_report/member_report.py:263
+#: api_admin/views/member_report/member_report.py:1123
+#: api_admin/views/member_report/member_report_multi_fx.py:221
+#: api_admin/views/member_report/member_report_multi_fx.py:1228
+msgid "This user does not has permission to visualization"
+msgstr "Este usuário não tem permissão para visualizar"
+
+#: api_admin/views/authentication/partners.py:653
+msgid "That email was already taken by another user"
+msgstr "Esse e-mail já foi recebido por outro usuário"
+
+#: api_admin/views/authentication/partners.py:885
+msgid "There are not such partner's documents in the system"
+msgstr "Não existem documentos desse parceiro no sistema"
+
+#: api_admin/views/authentication/partners.py:999
+msgid "You are trying to ban a user that is already banned"
+msgstr "Você está tentando banir um usuário que já está banido"
+
+#: api_admin/views/authentication/partners.py:1005
+msgid "You cannot ban a user that is inactive or undefined"
+msgstr "Você não pode proibir um usuário que está inativo ou indefinido"
+
+#: api_admin/views/authentication/partners.py:1013
+#: api_admin/views/authentication/partners.py:1147
+#: api_admin/views/authentication/partners.py:1266
+#: api_admin/views/authentication/partners.py:1399
+msgid "There is not such ban/unban code reason in the system"
+msgstr "Não existe tal motivo de proibição/desproibição no sistema"
+
+#: api_admin/views/authentication/partners.py:1019
+#: api_admin/views/authentication/partners.py:1153
+msgid "You cannot use an unban code when you are trying to ban"
+msgstr "Você não pode usar um código unban quando está tentando proibir"
+
+#: api_admin/views/authentication/partners.py:1068
+msgid "[account_banned] Your account was banned"
+msgstr "[conta_banida] Sua conta foi banida"
+
+#: api_admin/views/authentication/partners.py:1077
+#: api_admin/views/authentication/partners.py:1330
+#: api_admin/views/authentication/partners.py:1581
+msgid "Login Inlazz"
+msgstr "Login no Inlazz"
+
+#: api_admin/views/authentication/partners.py:1078
+msgid ""
+"Your account has been banned. If you have any question contact your assigned "
+"advisor"
+msgstr ""
+"Sua conta foi banida. Se você tiver alguma dúvida, contate seu assessor "
+"designado"
+
+#: api_admin/views/authentication/partners.py:1079
+#: api_admin/views/authentication/partners.py:1331
+#: api_admin/views/authentication/partners.py:1583
+#: api_admin/views/authentication/partners.py:1841
+#: api_partner/views/authentication/generate_code.py:167
+#: api_partner/views/authentication/generate_code.py:210
+msgid "Customer service"
+msgstr "Atendimento ao cliente"
+
+#: api_admin/views/authentication/partners.py:1080
+#: api_admin/views/authentication/partners.py:1332
+#: api_admin/views/authentication/partners.py:1584
+#: api_admin/views/authentication/partners.py:1842
+#: api_partner/views/authentication/generate_code.py:168
+#: api_partner/views/authentication/generate_code.py:211
+msgid "Monday to Friday"
+msgstr "De segunda a sexta-feira"
+
+#: api_admin/views/authentication/partners.py:1081
+#: api_admin/views/authentication/partners.py:1083
+#: api_admin/views/authentication/partners.py:1333
+#: api_admin/views/authentication/partners.py:1335
+#: api_admin/views/authentication/partners.py:1585
+#: api_admin/views/authentication/partners.py:1587
+#: api_admin/views/authentication/partners.py:1843
+#: api_admin/views/authentication/partners.py:1845
+#: api_partner/views/authentication/generate_code.py:169
+#: api_partner/views/authentication/generate_code.py:171
+#: api_partner/views/authentication/generate_code.py:212
+#: api_partner/views/authentication/generate_code.py:214
+msgid "Colombia (UTC-5)"
+msgstr "Colômbia (UTC-5)"
+
+#: api_admin/views/authentication/partners.py:1082
+#: api_admin/views/authentication/partners.py:1334
+#: api_admin/views/authentication/partners.py:1586
+#: api_admin/views/authentication/partners.py:1844
+#: api_partner/views/authentication/generate_code.py:170
+#: api_partner/views/authentication/generate_code.py:213
+msgid "Saturdays"
+msgstr "Sábados"
+
+#: api_admin/views/authentication/partners.py:1084
+#: api_admin/views/authentication/partners.py:1336
+#: api_admin/views/authentication/partners.py:1588
+#: api_admin/views/authentication/partners.py:1846
+#: api_partner/views/authentication/generate_code.py:172
+#: api_partner/views/authentication/generate_code.py:215
+#: core/helpers/email_thread.py:57
+msgid "Best regards,"
+msgstr "Com os melhores cumprimentos,"
+
+#: api_admin/views/authentication/partners.py:1086
+#: api_admin/views/authentication/partners.py:1338
+#: api_admin/views/authentication/partners.py:1590
+#: api_admin/views/authentication/partners.py:1848
+#: api_partner/views/authentication/generate_code.py:174
+#: api_partner/views/authentication/generate_code.py:217
+#: api_partner/views/authentication/generate_code.py:351
+msgid "*Do not reply this email. If you have any question contact our"
+msgstr ""
+"*Não responda a este e-mail. Se você tiver alguma dúvida, entre em contato "
+"com nosso"
+
+#: api_admin/views/authentication/partners.py:1139
+#: api_admin/views/authentication/partners.py:1391
+msgid "There is not such ban/unban reason in the system"
+msgstr "Não há essa razão de proibição/desproibição no sistema"
+
+#: api_admin/views/authentication/partners.py:1202
+msgid "There are not ban/unban reasons for that user in the system"
+msgstr "Não há razões de proibição/desproibição para esse usuário no sistema"
+
+#: api_admin/views/authentication/partners.py:1257
+msgid "You are trying to unban a user that is not banned"
+msgstr "Você está tentando desbanir um usuário que não está banido"
+
+#: api_admin/views/authentication/partners.py:1272
+#: api_admin/views/authentication/partners.py:1405
+msgid "You cannot use a ban code when you are trying to unban"
+msgstr ""
+"Não se pode usar um código de proibição quando se está tentando desbanir"
+
+#: api_admin/views/authentication/partners.py:1320
+msgid "[account_unbanned] Your account was unbanned!"
+msgstr "[conta_não_banida] sua conta teve sua proibição removida!"
+
+#: api_admin/views/authentication/partners.py:1329
+msgid ""
+"Your account has been unbanned. If you have any question contact your "
+"assigned advisor"
+msgstr ""
+"Sua conta não foi banida. Se você tiver alguma dúvida, entre em contato com "
+"seu assessor designado"
+
+#: api_admin/views/authentication/partners.py:1507
+msgid "You are trying to active a user that is already activated"
+msgstr "Você está tentando ativar um usuário que já está ativado"
+
+#: api_admin/views/authentication/partners.py:1515
+#: api_admin/views/authentication/partners.py:1652
+msgid "There is not such Active/inactive code reason in the system"
+msgstr "Não existe tal razão de código Ativo/Iativo no sistema"
+
+#: api_admin/views/authentication/partners.py:1521
+#: api_admin/views/authentication/partners.py:1658
+msgid "You cannot use an inactive code when you are trying to activate"
+msgstr "Você não pode usar um código inativo quando está tentando ativar"
+
+#: api_admin/views/authentication/partners.py:1572
+msgid "[activated_account] Your account was activated!"
+msgstr "[conta_ativada] Sua conta foi ativada!"
+
+#: api_admin/views/authentication/partners.py:1582
+msgid "This account has been activated."
+msgstr "Esta conta foi ativada."
+
+#: api_admin/views/authentication/partners.py:1644
+msgid "There is not such Active/inactive reason in the system"
+msgstr "Não há uma razão ativa/inativa no sistema"
+
+#: api_admin/views/authentication/partners.py:1708
+msgid "There are not Active/inactive history for that user in the system"
+msgstr "Não há histórico ativo/inativo para esse usuário no sistema"
+
+#: api_admin/views/authentication/partners.py:1762
+msgid "You are trying to inactivate a user that is already inactive"
+msgstr "You are trying to inactivate a user that is already inactive"
+
+#: api_admin/views/authentication/partners.py:1768
+msgid "You cannot inactivate a user that is banned or undefined"
+msgstr "Você está tentando inativar um usuário que já está inativo"
+
+#: api_admin/views/authentication/partners.py:1777
+#: api_admin/views/authentication/partners.py:1910
+msgid "There is not such active/inactive code reason in the system"
+msgstr "Não existe tal razão de código ativo/inativo no sistema"
+
+#: api_admin/views/authentication/partners.py:1783
+#: api_admin/views/authentication/partners.py:1916
+msgid "You cannot use an active code when you are trying to inactive"
+msgstr "Você não pode usar um código ativo quando está tentando ficar inativo"
+
+#: api_admin/views/authentication/partners.py:1831
+msgid "[inactivated_account] Your account was innactivated"
+msgstr "[conta_inativada] Sua conta foi desativada"
+
+#: api_admin/views/authentication/partners.py:1840
+msgid "This account is not longer part of Betenlace."
+msgstr "Esta conta não faz mais parte da Betenlace."
+
+#: api_admin/views/authentication/partners.py:1902
+msgid "There is not such active/inactive reason in the system"
+msgstr "Não há uma razão tão ativa/inativa no sistema"
+
+#: api_admin/views/authentication/partners.py:1968
+msgid "There are not active/inactive reasons for that user in the system"
+msgstr "Não há razões ativas/inativas para esse usuário no sistema"
+
+#: api_admin/views/authentication/password_recovery.py:84
+#: api_admin/views/authentication/password_recovery.py:122
+#: api_admin/views/authentication/password_recovery.py:264
+#: api_partner/views/authentication/validate_password_recovery_code.py:64
+#: api_partner/views/authentication/validate_password_recovery_code.py:85
+msgid "Invalid code or email"
+msgstr "Código inválido ou e-mail"
+
+#: api_admin/views/authentication/password_recovery.py:100
+#: api_admin/views/authentication/password_recovery.py:242
+#: api_partner/views/authentication/generate_code.py:615
+#: api_partner/views/authentication/generate_code.py:944
+#: api_partner/views/authentication/log_up.py:367
+#: api_partner/views/authentication/log_up.py:920
+#: api_partner/views/authentication/log_up.py:1610
+#: api_partner/views/authentication/phone_change.py:157
+#: api_partner/views/authentication/validate_password_recovery_code.py:74
+msgid "Max attempts for that code was reached"
+msgstr "A tentativa máxima para esse código foi alcançada"
+
+#: api_admin/views/authentication/password_recovery.py:145
+#: api_admin/views/authentication/password_recovery.py:287
+#: api_partner/views/authentication/generate_code.py:643
+#: api_partner/views/authentication/generate_code.py:972
+#: api_partner/views/authentication/log_up.py:948
+#: api_partner/views/authentication/log_up.py:1638
+#: api_partner/views/authentication/validate_password_recovery_code.py:100
+msgid "Validation code has expired"
+msgstr "O código de validação expirou"
+
+#: api_admin/views/billing/bills.py:262
+msgid "Some of bills does not exist on system"
+msgstr "Algumas das contas não existem no sistema"
+
+#: api_admin/views/billing/bills.py:350 api_partner/views/billing/bills.py:246
+msgid "There is not such bill with that user"
+msgstr "Não existe tal conta com esse usuário"
+
+#: api_admin/views/billing/bills.py:406
+msgid "You need to send at least one field \"status\" or \"bill_rate\""
+msgstr ""
+"Você precisa enviar pelo menos um campo \"status\" ou \"taxa de conta\"."
+
+#: api_admin/views/billing/bills.py:419
+msgid "There is not such bill in the system"
+msgstr "Não há tal conta no sistema"
+
+#: api_admin/views/billing/own_company.py:69
+msgid "There is not company info yet"
+msgstr "Ainda não há informações sobre a empresa"
+
+#: api_admin/views/billing/own_company.py:235
+#: api_partner/views/authentication/log_up.py:2496
+msgid "There is not such company in the system"
+msgstr "Não existe tal empresa no sistema"
+
+#: api_admin/views/celery/clocked_schedule.py:106
+msgid "There is not such clocked schedule in the system"
+msgstr "Não há um cronograma tão cronometrado no sistema"
+
+#: api_admin/views/celery/crontab_schedule.py:131
+msgid "There is not such crontab schedule in the system"
+msgstr "Não há tal cronograma de crônicas no sistema"
+
+#: api_admin/views/celery/interval_schedule.py:107
+msgid "There is not such interval schedule in the system"
+msgstr "Não existe tal cronograma de intervalos no sistema"
+
+#: api_admin/views/celery/periodic_tasks.py:147
+#: api_admin/views/celery/periodic_tasks.py:195
+#: api_admin/views/celery/periodic_tasks.py:256
+#: api_admin/views/celery/periodic_tasks.py:436
+#: api_admin/views/celery/periodic_tasks.py:500
+#: api_admin/views/celery/periodic_tasks.py:577
+msgid "More than one timer, you can only create one timer"
+msgstr "Mais de um timer, você só pode criar um timer"
+
+#: api_admin/views/celery/periodic_tasks.py:303
+#: api_admin/views/celery/periodic_tasks.py:641
+msgid "You need to provide at least one timer"
+msgstr "Você precisa fornecer pelo menos um temporizador"
+
+#: api_admin/views/celery/periodic_tasks.py:415
+msgid "period task not found"
+msgstr "tarefa do período não encontrada"
+
+#: api_admin/views/celery/periodic_tasks.py:740
+msgid "There is not such periodic task in the system"
+msgstr "Não há tal tarefa periódica no sistema"
+
+#: api_admin/views/cpa_management/cpa_manage_prev_not_billed.py:120
+#: api_admin/views/cpa_management/cpa_manage_prev_not_billed.py:481
+msgid "Date must be lesser than yesterday"
+msgstr "A data deve ser menor do que ontem"
+
+#: api_admin/views/cpa_management/cpa_manage_prev_not_billed.py:138
+#: api_admin/views/cpa_management/cpa_manage_prev_not_billed.py:466
+msgid "Input date is already billed"
+msgstr "A data de entrada já está faturada"
+
+#: api_admin/views/cpa_management/cpa_manage_prev_not_billed.py:422
+msgid ""
+"Has duplicated inputs / data with same betenlace_cpa_id and created_at must "
+"be CHECK"
+msgstr ""
+"Tem entradas / dados duplicados com o mesmo betenlace_cpa_id e criado_a deve "
+"ser CHECK"
+
+#: api_admin/views/cpa_management/cpa_manage_prev_not_billed.py:521
+msgid "betenlace_cpa_id not in DB"
+msgstr "betenlace_cpa_id não no DB"
+
+#: api_admin/views/cpa_management/cpa_manage_prev_not_billed.py:539
+msgid "Link does not have relation, bad integrity"
+msgstr "O link não tem relação, má integridade"
+
+#: api_admin/views/cpa_management/cpa_manage_prev_not_billed.py:597
+msgid "Does not exist FxPartner on DB"
+msgstr "Não existe FxPartner na DB"
+
+#: api_admin/views/cpa_management/cpa_management.py:269
+msgid "tax fx is not in DB"
+msgstr "fx fiscal não está no DB"
+
+#: api_admin/views/cpa_management/cpa_management.py:347
+#, python-brace-format
+msgid "Adviser dont has permission to edit cpas from {partner_id} user"
+msgstr "Consultor dont tem permissão para editar cpas do usuário {partner_id}"
+
+#: api_admin/views/frequent_questions/question.py:75
+#: api_admin/views/frequent_questions/question.py:155
+#: api_admin/views/frequent_questions/question_category.py:148
+msgid "There is not such question category in the system"
+msgstr "Não existe tal categoria de perguntas no sistema"
+
+#: api_admin/views/frequent_questions/question.py:143
+#: api_admin/views/frequent_questions/question.py:250
+msgid "There is not such question in the system"
+msgstr "Não há tal questão no sistema"
+
+#: api_admin/views/frequent_questions/question_category.py:69
+#: api_admin/views/frequent_questions/question_category.py:137
+msgid "Unrecognized icon"
+msgstr "Ícone irreconhecível"
+
+#: api_admin/views/frequent_questions/question_category.py:80
+msgid "There is a question category with that name"
+msgstr "Há uma categoria de perguntas com esse nome"
+
+#: api_admin/views/member_report/member_report_netrefer.py:142
+msgid "Undefined campaign on DB"
+msgstr "Campanha indefinida sobre a DB"
+
+#: api_admin/views/member_report/member_report_netrefer.py:169
+msgid "Undefined fx_partner on DB"
+msgstr "Fx_partner indefinido no DB"
+
+#: api_admin/views/member_report/member_report_netrefer.py:332
+msgid ""
+"Something is wrong at read CSV data, check format must be keys separated by "
+"comma"
+msgstr ""
+"Algo está errado na leitura dos dados CSV, o formato de verificação deve ser "
+"separado por vírgula"
+
+#: api_admin/views/partner/partner.py:155
+#: api_admin/views/partner/partner.py:167
+#: api_admin/views/partner/partner.py:180 api_partner/views/token/token.py:41
+msgid "Not found"
+msgstr "Não encontrado"
+
+#: api_admin/views/partner/partner.py:254
+#: api_admin/views/partner/validation.py:740
+#: api_admin/views/partner/validation.py:943
+#: api_admin/views/reports_management/link.py:861
+#: api_admin/views/reports_management/partnerlinkaccumulated.py:244
+#: api_partner/views/authentication/profile.py:93
+msgid "Partner not found"
+msgstr "Parceiro não encontrado"
+
+#: api_admin/views/partner/validation.py:446
+#: api_admin/views/partner/validation.py:928
+#: api_admin/views/partner/validation.py:1301
+#: api_admin/views/partner/validation.py:1639
+msgid "Code reason not found"
+msgstr "tarefa do período não encontrada"
+
+#: api_admin/views/partner/validation.py:460
+#: api_admin/views/partner/validation.py:833
+msgid "Partner level request not found"
+msgstr "Parceria não encontrada"
+
+#: api_admin/views/partner/validation.py:467
+msgid "Level request status is not {}"
+msgstr ""
+
+#: api_admin/views/partner/validation.py:501
+msgid "Partner level is already {}"
+msgstr "O banco parceiro já é aceito"
+
+#: api_admin/views/partner/validation.py:524
+#: api_admin/views/partner/validation.py:972
+#: api_admin/views/partner/validation.py:1347
+#: api_admin/views/partner/validation.py:1685
+msgid "No message found"
+msgstr "Não encontrado"
+
+#: api_admin/views/partner/validation.py:552
+#: api_admin/views/partner/validation.py:994
+msgid "Custom accumulated links differ from the ones provided"
+msgstr ""
+
+#: api_admin/views/partner/validation.py:950
+msgid "Partner level is already {} - {}"
+msgstr "O banco parceiro já é aceito"
+
+#: api_admin/views/partner/validation.py:1277
+#: api_admin/views/partner/validation.py:1615
+#: core/helpers/cerberus_custom_errors_validator.py:7
+msgid "Required field"
+msgstr "Campo obrigatório"
+
+#: api_admin/views/partner/validation.py:1317
+#: api_admin/views/partner/validation.py:1655
+msgid "Partner info validation request not found"
+msgstr "Parceria não encontrada"
+
+#: api_admin/views/partner/validation.py:1324
+msgid "Info validation request status is not {}"
+msgstr ""
+
+#: api_admin/views/partner/validation.py:1662
+msgid "Bank validation request status is not {}"
+msgstr ""
+
+#: api_admin/views/partner/validation.py:1702
+#: api_partner/views/authentication/profile.py:558
+msgid "Bank accounts limit reached"
+msgstr ""
+
+#: api_admin/views/partner_bank/partner_account_bank.py:101
+#: api_admin/views/partner_channel/social_channel.py:102
+#: api_partner/views/partner_channel/social_channel.py:150
+msgid "There is not partners  in the system"
+msgstr "Não existe esse parceiro no sistema"
+
+#: api_admin/views/profile/profile.py:72
+msgid "Invalid fields"
+msgstr "Campos inválidos"
+
+#: api_admin/views/referred/referred_user.py:208
+#: api_partner/views/status_management/status.py:118
+msgid "partner doesnt exist"
+msgstr "Este telefone não existe"
+
+#: api_admin/views/referred/referred_user.py:223
+msgid "You cannot edit percentage with referred null"
+msgstr ""
+
+#: api_admin/views/reports_management/bookmaker.py:199
+msgid "Bookmaker was updated succesfully"
+msgstr "O Bookmaker foi atualizado com êxito"
+
+#: api_admin/views/reports_management/campaign.py:317
+#: api_admin/views/reports_management/campaign.py:492
+msgid "Already a campaing exits with these name"
+msgstr "Já sai uma campanha com este nome"
+
+#: api_admin/views/reports_management/campaign.py:331
+msgid "Campaign created successfully"
+msgstr "Campanha criada com sucesso"
+
+#: api_admin/views/reports_management/campaign.py:459
+#: api_admin/views/reports_management/link.py:625
+#: api_partner/views/account_report/account_report.py:244
+msgid "Campaign not found"
+msgstr "Campanha não encontrada"
+
+#: api_admin/views/reports_management/campaign.py:890
+msgid "There is not such historic in the system"
+msgstr "Não existe tal usuário no sistema"
+
+#: api_admin/views/reports_management/fx_conversions.py:55
+msgid "Fx rate not any in DB"
+msgstr "Fx taxa não qualquer no BD"
+
+#: api_admin/views/reports_management/link.py:550
+#: api_admin/views/reports_management/link.py:883
+msgid "Link not found"
+msgstr "Link não encontrado"
+
+#: api_admin/views/reports_management/link.py:898
+msgid "Link already assigned"
+msgstr "Link já atribuído"
+
+#: api_admin/views/reports_management/link.py:920
+msgid "This user already have an link"
+msgstr "Este usuário já tem um link"
+
+#: api_admin/views/reports_management/link.py:1122
+msgid "Link does not have an partner_link associated"
+msgstr "Link não tem um parceiro_link associado"
+
+#: api_admin/views/reports_management/partnerlinkaccumulated.py:284
+msgid "Partnerlink status was updated successfully"
+msgstr "O status de Partnerlink foi atualizado com sucesso"
+
+#: api_admin/views/reports_management/partners_clicks.py:187
+#: api_partner/views/clicks/partner_clicks.py:148
+msgid "There is not such campaign in the system"
+msgstr "Não existe tal campanha no sistema"
+
+#: api_admin/views/reports_management/partners_clicks.py:200
+#: api_partner/views/clicks/partner_clicks.py:161
+msgid "'created_at_from' cannot be greater than 'created_at_to'."
+msgstr "O termo \"criado_em_de\" não pode ser maior do que \"criado_em_até\"."
+
+#: api_admin/views/reports_management/partners_clicks.py:208
+#: api_partner/views/clicks/partner_clicks.py:169
+msgid "The maximum number of days allowed has been exceeded."
+msgstr "O número máximo de dias permitido foi excedido."
+
+#: api_admin/views/reports_management/partners_clicks.py:261
+msgid "This partner does not have that campaign"
+msgstr "Este parceiro não tem essa campanha"
+
+#: api_admin/views/token/token.py:156
+#: api_partner/views/authentication/log_up.py:1199
+msgid "User not found"
+msgstr "Usuário não encontrado"
+
+#: api_admin/views/token/token.py:167
+msgid "User already has token"
+msgstr "O usuário já tem o token"
+
+#: api_admin/views/token/token_admin.py:118
+msgid "Admin not found"
+msgstr "The user already has the token"
+
+#: api_admin/views/token/token_admin.py:126
+msgid "Admin already has token"
+msgstr "A administração já tem o token"
+
+#: api_admin/views/translate_message/translate_message.py:191
+#: api_admin/views/translate_message/translate_message.py:572
+msgid "not input data for post"
+msgstr ""
+
+#: api_admin/views/translate_message/translate_message.py:322
+msgid "Code reason doesnt exist"
+msgstr "Este telefone não existe"
+
+#: api_admin/views/translate_message/translate_message.py:503
+msgid "message doesnt exist"
+msgstr "Este telefone não existe"
+
+#: api_admin/views/translate_message/translate_message.py:587
+msgid "not valid language for post"
+msgstr ""
+
+#: api_admin/views/visualizations/visualization_permissions.py:180
+msgid "Rol or permmission not found"
+msgstr "Rol ou permmissão não encontrada"
+
+#: api_admin/views/visualizations/visualization_permissions.py:198
+msgid "Visualization permissions was created successfully"
+msgstr "As permissões de visualização foram criadas com sucesso"
+
+#: api_admin/views/visualizations/visualization_permissions.py:202
+msgid "Visualization permissions was updated successfully"
+msgstr "As permissões de visualização foram criadas com sucesso"
+
+#: api_partner/helpers/authenticate_active_check.py:17
+msgid ""
+"Your are not allowed to execute functionalities your account is not active"
+msgstr ""
+
+#: api_partner/helpers/choices/level_partner.py:7
+msgid "Basic"
+msgstr ""
+
+#: api_partner/helpers/choices/level_partner.py:8
+msgid "Prime"
+msgstr ""
+
+#: api_partner/helpers/choices/partner_status.py:6
+msgid "Requested"
+msgstr "Campo obrigatório"
+
+#: api_partner/helpers/choices/partner_status.py:7
+msgid "Accepted"
+msgstr ""
+
+#: api_partner/helpers/choices/partner_status.py:8
+msgid "Rejected"
+msgstr ""
+
+#: api_partner/helpers/permissions/level.py:15
+msgid "Your account already has a level"
+msgstr "Sua conta não pode editar dados"
+
+#: api_partner/helpers/permissions/level.py:33
+msgid "Your account has not a level defined"
+msgstr "Sua conta não pode editar dados"
+
+#: api_partner/helpers/permissions/permissions.py:16
+msgid "You are banned, contact your adviser"
+msgstr "Você está banido, contate seu conselheiro"
+
+#: api_partner/helpers/permissions/permissions.py:34
+msgid "You dont have accepted terms"
+msgstr "Você não aceitou os termos"
+
+#: api_partner/helpers/permissions/permissions.py:52
+msgid "You have accepted terms"
+msgstr "Você aceitou os termos"
+
+#: api_partner/helpers/permissions/permissions.py:70
+msgid "Your account is deactivated, contact your adviser"
+msgstr "Sua conta está desativada, contate seu conselheiro"
+
+#: api_partner/helpers/permissions/permissions.py:88
+#: api_partner/helpers/permissions/permissions.py:107
+#: api_partner/helpers/permissions/permissions.py:126
+msgid "You are not full registered, please continue with you registration"
+msgstr ""
+"Você não está totalmente registrado, por favor, continue com seu registro"
+
+#: api_partner/helpers/permissions/permissions.py:145
+msgid "You are being verified yet, please contact your adviser"
+msgstr "Você está sendo verificado ainda, favor contatar seu conselheiro"
+
+#: api_partner/helpers/permissions/permissions.py:164
+msgid "You are not uploaded all pending data yet, verify data"
+msgstr ""
+"Você ainda não está carregando todos os dados pendentes, verifique os dados"
+
+#: api_partner/helpers/permissions/permissions.py:184
+msgid "Already Full register, you cannot follow regisration process"
+msgstr ""
+"Já com o registro completo, você não pode seguir o processo de registro"
+
+#: api_partner/helpers/permissions/permissions.py:205
+msgid "Your account are not completed the registration process yet"
+msgstr "Sua conta ainda não está completa o processo de registro"
+
+#: api_partner/helpers/permissions/permissions.py:226
+msgid "Your account can't edit data"
+msgstr "Sua conta não pode editar dados"
+
+#: api_partner/helpers/permissions/permissions.py:249
+msgid "Your account are not completed the skipped data yet"
+msgstr "Sua conta ainda não está completa os dados ignorados"
+
+#: api_partner/helpers/permissions/permissions.py:270
+msgid "Your email is not verified"
+msgstr ""
+
+#: api_partner/helpers/permissions/permissions.py:288
+msgid "Your basic info is not validated yet"
+msgstr "Telefone ou e-mail ainda não validado"
+
+#: api_partner/helpers/permissions/permissions.py:307
+msgid "Your bank info is not validated yet"
+msgstr "Telefone ou e-mail ainda não validado"
+
+#: api_partner/helpers/validation_phone_email.py:13
+msgid "Phone or email not validated yet"
+msgstr "Telefone ou e-mail ainda não validado"
+
+#: api_partner/models/authentication/bank_account.py:20
+msgid "Number"
+msgstr ""
+
+#: api_partner/models/authentication/bank_account.py:21
+msgid "IBAN"
+msgstr ""
+
+#: api_partner/models/authentication/bank_account.py:22
+msgid "PayPal"
+msgstr ""
+
+#: api_partner/models/partner_info_change_request/partner_bank_validation.py:35
+msgid "País de facturación"
+msgstr ""
+
+#: api_partner/models/partner_info_change_request/partner_bank_validation.py:36
+msgid "Ciudad de facturación"
+msgstr ""
+
+#: api_partner/models/partner_info_change_request/partner_bank_validation.py:37
+msgid "Dirección de facturación"
+msgstr ""
+
+#: api_partner/models/partner_info_change_request/partner_bank_validation.py:38
+msgid "Nombre del banco"
+msgstr ""
+
+#: api_partner/models/partner_info_change_request/partner_bank_validation.py:39
+msgid "Tipo de cuenta"
+msgstr ""
+
+#: api_partner/models/partner_info_change_request/partner_bank_validation.py:40
+msgid "Número de cuenta"
+msgstr ""
+
+#: api_partner/models/partner_info_change_request/partner_bank_validation.py:41
+msgid "Código swift"
+msgstr ""
+
+#: api_partner/models/partner_info_change_request/partner_bank_validation.py:42
+msgid "Nombre de empresa"
+msgstr ""
+
+#: api_partner/models/partner_info_change_request/partner_bank_validation.py:43
+msgid "Número de registro de empresa"
+msgstr ""
+
+#: api_partner/models/partner_info_change_request/partner_info_validation.py:63
+msgid "Nombre"
+msgstr ""
+
+#: api_partner/models/partner_info_change_request/partner_info_validation.py:64
+msgid "Apellido"
+msgstr ""
+
+#: api_partner/models/partner_info_change_request/partner_info_validation.py:65
+msgid "País de residencia"
+msgstr ""
+
+#: api_partner/models/partner_info_change_request/partner_info_validation.py:66
+msgid "Tipo de documento"
+msgstr ""
+
+#: api_partner/models/partner_info_change_request/partner_info_validation.py:67
+msgid "Número de identificación"
+msgstr ""
+
+#: api_partner/models/partner_info_change_request/partner_info_validation.py:68
+msgid "Documento de identificación frontal"
+msgstr ""
+
+#: api_partner/models/partner_info_change_request/partner_info_validation.py:69
+msgid "Documento de identificación trasero"
+msgstr ""
+
+#: api_partner/models/partner_info_change_request/partner_info_validation.py:70
+msgid "Documento selfie"
+msgstr ""
+
+#: api_partner/serializers/authentication/additional_info.py:19
+msgid "That link is associated with other partner"
+msgstr "Esse vínculo está associado a outro parceiro"
+
+#: api_partner/serializers/authentication/additional_info.py:29
+#: api_partner/serializers/authentication/additional_info.py:71
+msgid ""
+"There is a partner with that identification type and identification number"
+msgstr ""
+"Há um parceiro com esse tipo de identificação e número de identificação"
+
+#: api_partner/serializers/authentication/bank_account.py:23
+#: api_partner/serializers/authentication/bank_account.py:66
+#: api_partner/serializers/authentication/bank_account.py:76
+msgid ""
+"There is a partner with that account type, account number and swift code in "
+"the system"
+msgstr ""
+"Há um parceiro com esse tipo de conta, número de conta e código rápido no "
+"sistema"
+
+#: api_partner/serializers/authentication/bank_account.py:85
+msgid "There is a partner with that account number in the system"
+msgstr "Há um parceiro com esse número de conta no sistema"
+
+#: api_partner/serializers/authentication/company.py:19
+#: api_partner/serializers/authentication/company.py:73
+msgid "There is a partner with that company name and identification"
+msgstr "Há um parceiro com esse nome e identificação da empresa"
+
+#: api_partner/serializers/frequent_questions/question.py:19
+msgid "Question cannot be repeated in the same category"
+msgstr "A pergunta não pode ser repetida na mesma categoria"
+
+#: api_partner/serializers/frequent_questions/question_category.py:19
+#: api_partner/serializers/frequent_questions/question_category.py:50
+#: api_partner/serializers/frequent_questions/question_category.py:82
+msgid "There is another question category with that title"
+msgstr "Há outra categoria de perguntas com esse título"
+
+#: api_partner/views/authentication/confirm_password.py:59
+msgid "The password you provided does not match"
+msgstr "A senha que você forneceu não corresponde"
+
+#: api_partner/views/authentication/decline_partner.py:33
+msgid "There is not feedback in basic info for that user in the system"
+msgstr "Não há feedback nas informações básicas para esse usuário no sistema"
+
+#: api_partner/views/authentication/decline_partner.py:65
+msgid "There is not feedback in bank for that user in the system"
+msgstr "Não há feedback no banco para esse usuário no sistema"
+
+#: api_partner/views/authentication/decline_partner.py:98
+msgid "There is not feedback in documents for that user in the system"
+msgstr "Não há feedback em documentos para esse usuário no sistema"
+
+#: api_partner/views/authentication/generate_code.py:160
+#: api_partner/views/authentication/generate_code.py:337
+msgid "greetings,"
+msgstr ""
+
+#: api_partner/views/authentication/generate_code.py:328
+#: api_partner/views/authentication/log_up.py:1106
+msgid "Validation email"
+msgstr "E-mail de validação"
+
+#: api_partner/views/authentication/generate_code.py:334
+#: api_partner/views/authentication/generate_code.py:1005
+#: api_partner/views/authentication/log_up.py:1112
+msgid "Validation Code"
+msgstr "Código de Validação"
+
+#: api_partner/views/authentication/generate_code.py:342
+#: api_partner/views/authentication/generate_code.py:1012
+msgid "Remember that your password must meet the following requirements"
+msgstr "Lembre-se de que sua senha deve atender aos seguintes requisitos"
+
+#: api_partner/views/authentication/generate_code.py:344
+#: api_partner/views/authentication/generate_code.py:1014
+msgid "At least 1 upper case character"
+msgstr "Pelo menos 1 caractere maiúsculo"
+
+#: api_partner/views/authentication/generate_code.py:345
+#: api_partner/views/authentication/generate_code.py:1015
+msgid "At least 1 lower case character"
+msgstr "Pelo menos 1 caractere em minúsculas"
+
+#: api_partner/views/authentication/generate_code.py:347
+#: api_partner/views/authentication/generate_code.py:1017
+#: api_partner/views/authentication/log_up.py:1116
+msgid "do not share the confirmation code with any other person for any reason"
+msgstr ""
+"não compartilhe o código de confirmação com nenhuma outra pessoa, por "
+"qualquer motivo"
+
+#: api_partner/views/authentication/generate_code.py:348
+msgid ""
+"This code is valid for 10 minutes, to keep your safety, don't share it with "
+"other people"
+msgstr ""
+
+#: api_partner/views/authentication/generate_code.py:349
+msgid ""
+"Your email will serve as a backup in case the other means of security do not "
+"work or you do not have access to them."
+msgstr ""
+
+#: api_partner/views/authentication/generate_code.py:399
+#: api_partner/views/authentication/generate_code.py:581
+msgid "The email that you are trying to add already exits"
+msgstr "O e-mail que você está tentando adicionar já existe"
+
+#: api_partner/views/authentication/generate_code.py:532
+#: api_partner/views/authentication/generate_code.py:852
+#: api_partner/views/authentication/generate_code.py:1150
+#: api_partner/views/authentication/generate_code.py:1315
+msgid "Code was sent successfully"
+msgstr "O código foi enviado com sucesso"
+
+#: api_partner/views/authentication/generate_code.py:599
+#: api_partner/views/authentication/generate_code.py:928
+#: api_partner/views/authentication/log_up.py:904
+msgid "Invalid email, phone or user already register"
+msgstr "E-mail, telefone ou usuário inválido já registrado"
+
+#: api_partner/views/authentication/generate_code.py:629
+#: api_partner/views/authentication/generate_code.py:958
+#: api_partner/views/authentication/log_up.py:343
+#: api_partner/views/authentication/log_up.py:934
+#: api_partner/views/authentication/log_up.py:1624
+msgid "Invalid code"
+msgstr "Código inválido"
+
+#: api_partner/views/authentication/generate_code.py:674
+#: api_partner/views/authentication/generate_code.py:986
+msgid "Email updated successfully"
+msgstr "E-mail atualizado com sucesso"
+
+#: api_partner/views/authentication/generate_code.py:765
+#: api_partner/views/authentication/generate_code.py:910
+msgid "The phone that you are trying to add already exits"
+msgstr "O telefone que você está tentando adicionar já existe"
+
+#: api_partner/views/authentication/generate_code.py:999
+msgid "Validation code - Password Recovery"
+msgstr "Código de validação - Recuperação de senha"
+
+#: api_partner/views/authentication/generate_code.py:1006
+msgid "Hi,"
+msgstr "olá"
+
+#: api_partner/views/authentication/generate_code.py:1013
+msgid "Minimum length 8 characters"
+msgstr "Comprimento mínimo 8 caracteres"
+
+#: api_partner/views/authentication/generate_code.py:1019
+msgid ""
+"Almost done. To get a new password for your account enter the following code"
+msgstr ""
+
+#: api_partner/views/authentication/generate_code.py:1065
+msgid "This email does not exists"
+msgstr "Este e-mail não existe"
+
+#: api_partner/views/authentication/generate_code.py:1161
+#: api_partner/views/authentication/generate_code.py:1181
+#: api_partner/views/authentication/log_up.py:1123
+#: api_partner/views/authentication/log_up.py:1142
+msgid ""
+"{} is your code. Never share this code with anyone, only use it on Inlazz."
+"com."
+msgstr ""
+"{} é o seu código. Nunca partilhe este código com ninguém, utilize-o apenas "
+"no Inlazz.com."
+
+#: api_partner/views/authentication/generate_code.py:1245
+msgid "This phone does not exists"
+msgstr "Este telefone não existe"
+
+#: api_partner/views/authentication/generate_code.py:1389
+msgid "Email or phone are required"
+msgstr "E-mail ou telefone são obrigatórios"
+
+#: api_partner/views/authentication/generate_code.py:1404
+msgid "This user does not exists"
+msgstr "Este usuário não existe"
+
+#: api_partner/views/authentication/generate_code.py:1418
+msgid "Validation code does not exists"
+msgstr "O código de validação não existe"
+
+#: api_partner/views/authentication/log_in.py:71
+msgid "Email or phone are necessary"
+msgstr "E-mail ou telefone são necessários"
+
+#: api_partner/views/authentication/log_in.py:91
+msgid "There is not such user"
+msgstr "Não existe esse usuário"
+
+#: api_partner/views/authentication/log_in.py:108
+msgid "Invalid password"
+msgstr "Código inválido"
+
+#: api_partner/views/authentication/log_in.py:126
+msgid "Your account is not activated, contact your adviser"
+msgstr "Sua conta não está ativada, entre em contato com seu consultor"
+
+#: api_partner/views/authentication/log_in.py:140
+msgid "Your account is banned, contact your adviser"
+msgstr "Sua conta foi banida, entre em contato com seu consultor"
+
+#: api_partner/views/authentication/log_up.py:187
+msgid "There is a user in the system with that email"
+msgstr "Há um usuário no sistema com esse e-mail"
+
+#: api_partner/views/authentication/log_up.py:191
+msgid "There is a user in the system with that phone"
+msgstr "Há um usuário no sistema com esse telefone"
+
+#: api_partner/views/authentication/log_up.py:314
+#: api_partner/views/authentication/log_up.py:510
+msgid "Validation Code Register not found"
+msgstr "O código de validação não existe"
+
+#: api_partner/views/authentication/log_up.py:355
+#: api_partner/views/authentication/phone_change.py:183
+msgid "Code expired, please request a new one"
+msgstr ""
+
+#: api_partner/views/authentication/log_up.py:380
+#: api_partner/views/authentication/log_up.py:394
+#: api_partner/views/authentication/log_up.py:523
+msgid "Account already exists"
+msgstr ""
+
+#: api_partner/views/authentication/log_up.py:676
+msgid "Your account level is already {}"
+msgstr "Sua conta não pode editar dados"
+
+#: api_partner/views/authentication/log_up.py:698
+msgid "Already requested"
+msgstr ""
+
+#: api_partner/views/authentication/log_up.py:759
+msgid "You can't upload the same url more than once"
+msgstr ""
+
+#: api_partner/views/authentication/log_up.py:843
+msgid "Email and phone can not come together"
+msgstr "E-mail e telefone não podem vir juntos"
+
+#: api_partner/views/authentication/log_up.py:861
+#: api_partner/views/authentication/log_up.py:1243
+msgid "Phone and valid_phone_by are neccesary together"
+msgstr "Phone e valid_phone_by são necessários juntos"
+
+#: api_partner/views/authentication/log_up.py:889
+#: api_partner/views/authentication/log_up.py:1580
+msgid "Email or phone not sent"
+msgstr "Email ou telefone não enviado"
+
+#: api_partner/views/authentication/log_up.py:1008
+msgid "Adviser not found in DB"
+msgstr "Consultor não encontrado no banco de dados"
+
+#: api_partner/views/authentication/log_up.py:1051
+msgid "An error occurred deleting validation code register"
+msgstr "Ocorreu um erro ao excluir o registro do código de validação"
+
+#: api_partner/views/authentication/log_up.py:1211
+#: api_partner/views/authentication/log_up.py:1532
+msgid "The email already is validated"
+msgstr "O email já está validado"
+
+#: api_partner/views/authentication/log_up.py:1214
+#: api_partner/views/authentication/log_up.py:1535
+msgid "The phone already is validated"
+msgstr "O telefone já está validado"
+
+#: api_partner/views/authentication/log_up.py:1263
+msgid "The email that you trying to add already exists"
+msgstr "O e-mail que você está tentando adicionar já existe"
+
+#: api_partner/views/authentication/log_up.py:1336
+msgid "Error to send email"
+msgstr "Erro ao enviar e-mail"
+
+#: api_partner/views/authentication/log_up.py:1354
+msgid "The phone that you trying to add already exists"
+msgstr "O telefone que você está tentando adicionar já existe"
+
+#: api_partner/views/authentication/log_up.py:1431 core/helpers/sendgrid.py:67
+msgid "The number {} is not a valid phone number"
+msgstr "O número {} não é um número de telefone válido"
+
+#: api_partner/views/authentication/log_up.py:1448
+#: api_partner/views/authentication/log_up.py:1473
+msgid "Error to send message"
+msgstr "Erro ao enviar mensagem"
+
+#: api_partner/views/authentication/log_up.py:1568
+msgid "Valid_phone_by not send and is necessary"
+msgstr "Valid_phone_by não envia e é necessário"
+
+#: api_partner/views/authentication/log_up.py:1594
+msgid "Not found validation code"
+msgstr "Código de validação não encontrado"
+
+#: api_partner/views/authentication/log_up.py:1827
+#: api_partner/views/authentication/log_up.py:2081
+#: api_partner/views/authentication/log_up.py:2366
+msgid "You have a accepted validation status"
+msgstr "Você tem um status de validação aceito"
+
+#: api_partner/views/authentication/log_up.py:1838
+#: api_partner/views/authentication/log_up.py:2098
+#: api_partner/views/authentication/log_up.py:2377
+msgid "You have to be verified first before attempting to update"
+msgstr "Você precisa ser verificado antes de tentar atualizar"
+
+#: api_partner/views/authentication/log_up.py:2266
+#: api_partner/views/authentication/own_profile_management.py:333
+msgid "You are sending everything empty, you need to send at least one file"
+msgstr ""
+"Você está enviando tudo vazio, você precisa enviar pelo menos um arquivo"
+
+#: api_partner/views/authentication/log_up.py:2393
+msgid "There are not such partner documents in the system"
+msgstr "Não existem tais documentos do parceiro no sistema"
+
+#: api_partner/views/authentication/log_up.py:2508
+msgid "There are not such company documents in the system"
+msgstr "Não existem tais documentos da empresa no sistema"
+
+#: api_partner/views/authentication/own_profile_management.py:92
+#: api_partner/views/authentication/own_profile_management.py:246
+msgid "You have a bad bank validation status"
+msgstr "Não existem tais documentos da empresa no sistema"
+
+#: api_partner/views/authentication/own_profile_management.py:146
+msgid "Missing relation on your bank account info, contact an Adviser!"
+msgstr ""
+"Falta relação nas informações da sua conta bancária, entre em contato com um "
+"Consultor!"
+
+#: api_partner/views/authentication/own_profile_management.py:348
+msgid "Missing relation on your document info for person, contact an Adviser!"
+msgstr ""
+"Falta relação na informação do seu documento por pessoa, entre em contato "
+"com um Assessor!"
+
+#: api_partner/views/authentication/own_profile_management.py:374
+msgid "Missing relation on your document info for company, contact an Adviser!"
+msgstr ""
+"Falta relação nas informações do seu documento para empresa, entre em "
+"contato com um consultor!"
+
+#: api_partner/views/authentication/phone_change.py:80
+msgid "Please enter a new phone number"
+msgstr ""
+
+#: api_partner/views/authentication/phone_change.py:91
+#: api_partner/views/authentication/phone_change.py:196
+msgid "Invalid phone. Please try with another one"
+msgstr ""
+
+#: api_partner/views/authentication/phone_change.py:145
+#: api_partner/views/authentication/phone_change.py:171
+msgid "Invalid code. Try again, or request a new one"
+msgstr ""
+
+#: api_partner/views/authentication/profile.py:277
+msgid "Info validation request already submitted"
+msgstr "E-mail, telefone ou usuário inválido já registrado"
+
+#: api_partner/views/authentication/profile.py:295
+msgid ""
+"Must have a rejected status and a rejected validation request if any "
+"document is missing"
+msgstr ""
+
+#: api_partner/views/authentication/profile.py:545
+#: api_partner/views/authentication/profile.py:808
+msgid "You already have a pending bank validation request"
+msgstr "Não existem tais documentos da empresa no sistema"
+
+#: api_partner/views/authentication/profile.py:650
+msgid "This bank account is already your primary account"
+msgstr ""
+
+#: api_partner/views/authentication/profile.py:698
+msgid "You can't delete your primary bank account"
+msgstr ""
+
+#: api_partner/views/authentication/profile.py:820
+msgid "Bank info validation request limit reached"
+msgstr ""
+
+#: api_partner/views/authentication/update_marketing_terms.py:93
+msgid "Is_notify_campaign or is_notify_notice fields are required"
+msgstr "Os campos Is_notify_campaign ou is_notify_notice são obrigatórios"
+
+#: api_partner/views/authentication/update_marketing_terms.py:103
+msgid "Marketing field updated updated successfully"
+msgstr "Campo de marketing atualizado com sucesso"
+
+#: api_partner/views/clicks/partner_clicks.py:180
+msgid "You don't have that campaign"
+msgstr "Você não tem essa campanha"
+
+#: api_partner/views/reports_management/links.py:92
+msgid "No links available"
+msgstr "Nenhum link disponível"
+
+#: api_partner/views/reports_management/links.py:111
+msgid "Already has an link assigned"
+msgstr "Já tem um link atribuído"
+
+#: api_partner/views/reports_management/links.py:150
+msgid "maximum number of campaigns reached"
+msgstr ""
+
+#: api_partner/views/reports_management/links.py:251
+msgid "The link was assigned successfully"
+msgstr "O link foi atribuído com sucesso"
+
+#: betenlace/settings.py:190 betenlace/settings/base.py:187
+#: core/helpers/languages.py:146
+msgid "Spanish"
+msgstr "Espanhol"
+
+#: betenlace/settings.py:191 betenlace/settings/base.py:188
+#: core/helpers/languages.py:45
+msgid "English"
+msgstr "Inglês"
+
+#: betenlace/settings.py:192 betenlace/settings/base.py:189
+#: core/helpers/languages.py:126
+msgid "Portuguese"
+msgstr "Português"
+
+#: core/helpers/cerberus_custom_errors_validator.py:12
+msgid "Invalid filename, allowed extensions .png, .jpg, .jpeg, .webp"
+msgstr ""
+"Nome de arquivo inválido, extensões permitidas .png, .jpg, .jpeg, .webp"
+
+#: core/helpers/cerberus_custom_errors_validator.py:17
+msgid "Invalid filename, allowed extensions .pdf, .png, .jpg, .jpeg"
+msgstr "Nome de arquivo inválido, extensões permitidas .pdf, .png, .jpg, .jpeg"
+
+#: core/helpers/cerberus_gen_check_with.py:6
+msgid "Must be a positive Float"
+msgstr "Deve ser um Float positivo"
+
+#: core/helpers/cerberus_gen_check_with.py:12
+msgid "Must be a positive Int"
+msgstr "Deve ser um número inteiro positivo"
+
+#: core/helpers/cerberus_gen_coerce_functions.py:56
+#: core/helpers/cerberus_gen_coerce_functions.py:73
+#: core/helpers/cerberus_gen_coerce_functions.py:110
+#: core/helpers/cerberus_gen_coerce_functions.py:137
+#: core/helpers/cerberus_gen_coerce_functions.py:189
+#: core/helpers/cerberus_gen_coerce_functions.py:217
+#: core/helpers/cerberus_gen_coerce_functions.py:240
+msgid "Unexpected value"
+msgstr "Valor inesperado"
+
+#: core/helpers/cerberus_gen_coerce_functions.py:82
+#: core/helpers/cerberus_gen_coerce_functions.py:99
+#: core/helpers/cerberus_gen_coerce_functions.py:126
+#: core/helpers/cerberus_gen_coerce_functions.py:153
+#: core/helpers/cerberus_gen_coerce_functions.py:207
+msgid "Bad format"
+msgstr "Formato incorreto"
+
+#: core/helpers/cerberus_gen_coerce_functions.py:170
+msgid "Unspected value"
+msgstr "Valor inesperado"
+
+#: core/helpers/check_email_phone.py:13
+msgid "Email or phone already validated"
+msgstr "Email ou telefone já validado"
+
+#: core/helpers/check_permissions.py:13
+msgid "You don't have permission"
+msgstr "Você não tem permissão"
+
+#: core/helpers/countries.py:16 core/helpers/countries.py:39
+#: core/helpers/countries.py:291
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: core/helpers/countries.py:17
+msgid "Brasil"
+msgstr "Brasil"
+
+#: core/helpers/countries.py:18 core/helpers/countries.py:29
+#: core/helpers/countries.py:101
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: core/helpers/countries.py:24 core/helpers/countries.py:57
+msgid "Argentina"
+msgstr "Argentina"
+
+#: core/helpers/countries.py:25 core/helpers/countries.py:73
+msgid "Bolivia"
+msgstr "Bolívia"
+
+#: core/helpers/countries.py:27 core/helpers/countries.py:92
+msgid "Chile"
+msgstr "Chile"
+
+#: core/helpers/countries.py:30 core/helpers/countries.py:112
+msgid "Ecuador"
+msgstr "Equador"
+
+#: core/helpers/countries.py:31 core/helpers/countries.py:157
+msgid "Italy"
+msgstr "Itália"
+
+#: core/helpers/countries.py:33 core/helpers/countries.py:219
+msgid "Panama"
+msgstr "Panamá"
+
+#: core/helpers/countries.py:34 core/helpers/countries.py:221
+msgid "Paraguay"
+msgstr "Paraguai"
+
+#: core/helpers/countries.py:36 core/helpers/countries.py:227
+msgid "Puerto Rico"
+msgstr "Porto Rico"
+
+#: core/helpers/countries.py:38 core/helpers/countries.py:287
+msgid "Uruguay"
+msgstr "Uruguai"
+
+#: core/helpers/countries.py:40 core/helpers/countries.py:226
+msgid "Portugal"
+msgstr "Portugal"
+
+#: core/helpers/countries.py:47
+msgid "Afghanistan"
+msgstr "Afeganistão"
+
+#: core/helpers/countries.py:48
+msgid "Åland Islands"
+msgstr "Ilhas Aland"
+
+#: core/helpers/countries.py:49
+msgid "Albania"
+msgstr "Albânia"
+
+#: core/helpers/countries.py:50
+msgid "Algeria"
+msgstr "Argélia"
+
+#: core/helpers/countries.py:51
+msgid "American Samoa"
+msgstr "Samoa Americana"
+
+#: core/helpers/countries.py:52
+msgid "Andorra"
+msgstr "Andorra"
+
+#: core/helpers/countries.py:53
+msgid "Angola"
+msgstr "Angola"
+
+#: core/helpers/countries.py:54
+msgid "Anguilla"
+msgstr "Anguila"
+
+#: core/helpers/countries.py:55
+msgid "Antarctica"
+msgstr "Antártica"
+
+#: core/helpers/countries.py:56
+msgid "Antigua and Barbuda"
+msgstr "Antígua e Barbuda"
+
+#: core/helpers/countries.py:58
+msgid "Armenia"
+msgstr "Armênia"
+
+#: core/helpers/countries.py:59
+msgid "Aruba"
+msgstr "Aruba"
+
+#: core/helpers/countries.py:60
+msgid "Australia"
+msgstr "Austrália"
+
+#: core/helpers/countries.py:61
+msgid "Austria"
+msgstr "Áustria"
+
+#: core/helpers/countries.py:62
+msgid "Azerbaijan"
+msgstr "Azerbaijão"
+
+#: core/helpers/countries.py:63
+msgid "The Bahamas"
+msgstr "As Bahamas"
+
+#: core/helpers/countries.py:64
+msgid "Bahrain"
+msgstr "Bahrein"
+
+#: core/helpers/countries.py:65
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: core/helpers/countries.py:66
+msgid "Barbados"
+msgstr "Barbados"
+
+#: core/helpers/countries.py:67
+msgid "Belarus"
+msgstr "Bielorrússia"
+
+#: core/helpers/countries.py:68
+msgid "Belgium"
+msgstr "Bélgica"
+
+#: core/helpers/countries.py:69
+msgid "Belize"
+msgstr "Belize"
+
+#: core/helpers/countries.py:70
+msgid "Benin"
+msgstr "Benim"
+
+#: core/helpers/countries.py:71
+msgid "Bermuda"
+msgstr "Bermudas"
+
+#: core/helpers/countries.py:72
+msgid "Bhutan"
+msgstr "Butão"
+
+#: core/helpers/countries.py:74
+msgid "Caribbean Netherlands"
+msgstr "Países Baixos Caribenhos"
+
+#: core/helpers/countries.py:75
+msgid "Bosnia and Herzegovina"
+msgstr "Bósnia e Herzegovina"
+
+#: core/helpers/countries.py:76
+msgid "Botswana"
+msgstr "Botsuana"
+
+#: core/helpers/countries.py:77
+msgid "Bouvet Island"
+msgstr "Ilha Bouvet"
+
+#: core/helpers/countries.py:79
+msgid "British Indian Ocean Territory"
+msgstr "Território Britânico do Oceano Índico"
+
+#: core/helpers/countries.py:80
+msgid "British Virgin Islands"
+msgstr "Ilhas Virgens Britânicas"
+
+#: core/helpers/countries.py:81
+msgid "Brunei"
+msgstr "Brunei"
+
+#: core/helpers/countries.py:82
+msgid "Bulgaria"
+msgstr "Bulgária"
+
+#: core/helpers/countries.py:83
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: core/helpers/countries.py:84
+msgid "Burundi"
+msgstr "Burundi"
+
+#: core/helpers/countries.py:85
+msgid "Cambodia"
+msgstr "Camboja"
+
+#: core/helpers/countries.py:86
+msgid "Cameroon"
+msgstr "Camarões"
+
+#: core/helpers/countries.py:87
+msgid "Canada"
+msgstr "Canadá"
+
+#: core/helpers/countries.py:88
+msgid "Cape Verde"
+msgstr "cabo Verde"
+
+#: core/helpers/countries.py:89
+msgid "Cayman Islands"
+msgstr "Ilhas Cayman"
+
+#: core/helpers/countries.py:90
+msgid "Central African Republic"
+msgstr "República Centro-Africana"
+
+#: core/helpers/countries.py:91
+msgid "Chad"
+msgstr "Chade"
+
+#: core/helpers/countries.py:93
+msgid "China, People's Republic of"
+msgstr "China, República Popular da"
+
+#: core/helpers/countries.py:94
+msgid "Christmas Island"
+msgstr "Ilha do Natal"
+
+#: core/helpers/countries.py:95
+msgid "Cocos (Keeling) Islands"
+msgstr "Ilhas Cocos (Keeling)"
+
+#: core/helpers/countries.py:97
+msgid "Comoros"
+msgstr "Comores"
+
+#: core/helpers/countries.py:98
+msgid "Congo, Democratic Republic of the"
+msgstr "Congo, República Democrática do"
+
+#: core/helpers/countries.py:99
+msgid "Congo, Republic of"
+msgstr "Congo, República do"
+
+#: core/helpers/countries.py:100
+msgid "Cook Islands"
+msgstr "Ilhas Cook"
+
+#: core/helpers/countries.py:102
+msgid "Côte d'Ivoire"
+msgstr "Costa do Marfim"
+
+#: core/helpers/countries.py:103
+msgid "Croatia"
+msgstr "Croácia"
+
+#: core/helpers/countries.py:104
+msgid "Cuba"
+msgstr "Cuba"
+
+#: core/helpers/countries.py:105
+msgid "Curaçao"
+msgstr "Curaçao"
+
+#: core/helpers/countries.py:106
+msgid "Cyprus"
+msgstr "Chipre"
+
+#: core/helpers/countries.py:107
+msgid "Czech Republic"
+msgstr "República Checa"
+
+#: core/helpers/countries.py:108
+msgid "Denmark"
+msgstr "Dinamarca"
+
+#: core/helpers/countries.py:109
+msgid "Djibouti"
+msgstr "Djibuti"
+
+#: core/helpers/countries.py:110
+msgid "Dominica"
+msgstr "Dominica"
+
+#: core/helpers/countries.py:111
+msgid "Dominican Republic"
+msgstr "República Dominicana"
+
+#: core/helpers/countries.py:113
+msgid "Egypt"
+msgstr "Egito"
+
+#: core/helpers/countries.py:114
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: core/helpers/countries.py:115
+msgid "England"
+msgstr "Inglaterra"
+
+#: core/helpers/countries.py:116
+msgid "Equatorial Guinea"
+msgstr "Guiné Equatorial"
+
+#: core/helpers/countries.py:117
+msgid "Eritrea"
+msgstr "Eritreia"
+
+#: core/helpers/countries.py:118
+msgid "Estonia"
+msgstr "Estônia"
+
+#: core/helpers/countries.py:119
+msgid "Ethiopia"
+msgstr "Etiópia"
+
+#: core/helpers/countries.py:120
+msgid "Falkland Islands"
+msgstr "Ilhas Malvinas"
+
+#: core/helpers/countries.py:121
+msgid "Faroe Islands"
+msgstr "ilhas Faroe"
+
+#: core/helpers/countries.py:122
+msgid "Fiji"
+msgstr "Fiji"
+
+#: core/helpers/countries.py:123
+msgid "Finland"
+msgstr "Finlândia"
+
+#: core/helpers/countries.py:124
+msgid "France"
+msgstr "França"
+
+#: core/helpers/countries.py:125
+msgid "French Guiana"
+msgstr "Guiana Francesa"
+
+#: core/helpers/countries.py:126
+msgid "French Polynesia"
+msgstr "Polinésia Francesa"
+
+#: core/helpers/countries.py:127
+msgid "French Southern and Antarctic Lands"
+msgstr "Terras do Sul e Antárticas Francesas"
+
+#: core/helpers/countries.py:128
+msgid "Gabon"
+msgstr "Gabão"
+
+#: core/helpers/countries.py:129
+msgid "The Gambia"
+msgstr "A Gâmbia"
+
+#: core/helpers/countries.py:130
+msgid "Georgia"
+msgstr "Geórgia"
+
+#: core/helpers/countries.py:131
+msgid "Germany"
+msgstr "Alemanha"
+
+#: core/helpers/countries.py:132
+msgid "Ghana"
+msgstr "Gana"
+
+#: core/helpers/countries.py:133
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: core/helpers/countries.py:134
+msgid "Greece"
+msgstr "Grécia"
+
+#: core/helpers/countries.py:135
+msgid "Greenland"
+msgstr "Groenlândia"
+
+#: core/helpers/countries.py:136
+msgid "Grenada"
+msgstr "Granada"
+
+#: core/helpers/countries.py:137
+msgid "Guadeloupe"
+msgstr "Guadalupe"
+
+#: core/helpers/countries.py:138
+msgid "Guam"
+msgstr "Guam"
+
+#: core/helpers/countries.py:139
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: core/helpers/countries.py:140
+msgid "Guernsey"
+msgstr "Guernsey"
+
+#: core/helpers/countries.py:141
+msgid "Guinea"
+msgstr "Guiné"
+
+#: core/helpers/countries.py:142
+msgid "Guinea-Bissau"
+msgstr "Guiné-Bissau"
+
+#: core/helpers/countries.py:143
+msgid "Guyana"
+msgstr "Guiana"
+
+#: core/helpers/countries.py:144
+msgid "Haiti"
+msgstr "Haiti"
+
+#: core/helpers/countries.py:145
+msgid "Heard Island and McDonald Islands"
+msgstr "Ilha Heard e Ilhas McDonald"
+
+#: core/helpers/countries.py:146
+msgid "Honduras"
+msgstr "Honduras"
+
+#: core/helpers/countries.py:147
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: core/helpers/countries.py:148
+msgid "Hungary"
+msgstr "Hungria"
+
+#: core/helpers/countries.py:149
+msgid "Iceland"
+msgstr "Islândia"
+
+#: core/helpers/countries.py:150
+msgid "India"
+msgstr "Índia"
+
+#: core/helpers/countries.py:151
+msgid "Indonesia"
+msgstr "Indonésia"
+
+#: core/helpers/countries.py:152
+msgid "Iran"
+msgstr "Irã"
+
+#: core/helpers/countries.py:153
+msgid "Iraq"
+msgstr "Iraque"
+
+#: core/helpers/countries.py:154
+msgid "Ireland"
+msgstr "Irlanda"
+
+#: core/helpers/countries.py:155
+msgid "Isle of Man"
+msgstr "Ilha de Man"
+
+#: core/helpers/countries.py:156
+msgid "Israel"
+msgstr "Israel"
+
+#: core/helpers/countries.py:158
+msgid "Jamaica"
+msgstr "Jamaica"
+
+#: core/helpers/countries.py:159
+msgid "Japan"
+msgstr "Japão"
+
+#: core/helpers/countries.py:160
+msgid "Jersey"
+msgstr "Jersey"
+
+#: core/helpers/countries.py:161
+msgid "Jordan"
+msgstr "Jordânia"
+
+#: core/helpers/countries.py:162
+msgid "Kazakhstan"
+msgstr "Cazaquistão"
+
+#: core/helpers/countries.py:163
+msgid "Kenya"
+msgstr "Quênia"
+
+#: core/helpers/countries.py:164
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: core/helpers/countries.py:165
+msgid "Korea, Democratic People's Rep. (North)"
+msgstr "Coreia, República Popular Democrática (Norte)"
+
+#: core/helpers/countries.py:166
+msgid "Korea, Republic of (South)"
+msgstr "Coreia, República do (Sul)"
+
+#: core/helpers/countries.py:167
+msgid "Kuwait"
+msgstr "Kuwait"
+
+#: core/helpers/countries.py:168
+msgid "Kyrgyzstan"
+msgstr "Quirguistão"
+
+#: core/helpers/countries.py:169
+msgid "Laos"
+msgstr "Laos"
+
+#: core/helpers/countries.py:170
+msgid "Latvia"
+msgstr "Letônia"
+
+#: core/helpers/countries.py:171
+msgid "Lebanon"
+msgstr "Líbano"
+
+#: core/helpers/countries.py:172
+msgid "Lesotho"
+msgstr "Lesoto"
+
+#: core/helpers/countries.py:173
+msgid "Liberia"
+msgstr "Libéria"
+
+#: core/helpers/countries.py:174
+msgid "Libya"
+msgstr "Líbia"
+
+#: core/helpers/countries.py:175
+msgid "Liechtenstein"
+msgstr "Listenstaine"
+
+#: core/helpers/countries.py:176
+msgid "Lithuania"
+msgstr "Lituânia"
+
+#: core/helpers/countries.py:177
+msgid "Luxembourg"
+msgstr "Luxemburgo"
+
+#: core/helpers/countries.py:178
+msgid "Macau"
+msgstr "Macau"
+
+#: core/helpers/countries.py:179
+msgid "Macedonia"
+msgstr "Macedônia"
+
+#: core/helpers/countries.py:180
+msgid "Madagascar"
+msgstr "Madagáscar"
+
+#: core/helpers/countries.py:181
+msgid "Malawi"
+msgstr "Malawi"
+
+#: core/helpers/countries.py:182
+msgid "Malaysia"
+msgstr "Malásia"
+
+#: core/helpers/countries.py:183
+msgid "Maldives"
+msgstr "Maldivas"
+
+#: core/helpers/countries.py:184
+msgid "Mali"
+msgstr "Mali"
+
+#: core/helpers/countries.py:185
+msgid "Malta"
+msgstr "Malta"
+
+#: core/helpers/countries.py:186
+msgid "Marshall Islands"
+msgstr "Ilhas Marshall"
+
+#: core/helpers/countries.py:187
+msgid "Martinique"
+msgstr "Martinica"
+
+#: core/helpers/countries.py:188
+msgid "Mauritania"
+msgstr "Mauritânia"
+
+#: core/helpers/countries.py:189
+msgid "Mauritius"
+msgstr "Maurício"
+
+#: core/helpers/countries.py:190
+msgid "Mayotte"
+msgstr "Maiote"
+
+#: core/helpers/countries.py:192
+msgid "Micronesia, Federated States of"
+msgstr "Micronésia, Estados Federados da"
+
+#: core/helpers/countries.py:193
+msgid "Moldova"
+msgstr "Moldávia"
+
+#: core/helpers/countries.py:194
+msgid "Monaco"
+msgstr "Mônaco"
+
+#: core/helpers/countries.py:195
+msgid "Mongolia"
+msgstr "Mongólia"
+
+#: core/helpers/countries.py:196
+msgid "Montenegro"
+msgstr "Montenegro"
+
+#: core/helpers/countries.py:197
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: core/helpers/countries.py:198
+msgid "Morocco"
+msgstr "Marrocos"
+
+#: core/helpers/countries.py:199
+msgid "Mozambique"
+msgstr "Moçambique"
+
+#: core/helpers/countries.py:200
+msgid "Myanmar"
+msgstr "Mianmar"
+
+#: core/helpers/countries.py:201
+msgid "Namibia"
+msgstr "Namíbia"
+
+#: core/helpers/countries.py:202 core/helpers/languages.py:111
+msgid "Nauru"
+msgstr "Nauru"
+
+#: core/helpers/countries.py:203
+msgid "Nepal"
+msgstr "Nepal"
+
+#: core/helpers/countries.py:204
+msgid "Netherlands"
+msgstr "Holanda"
+
+#: core/helpers/countries.py:205
+msgid "New Caledonia"
+msgstr "Nova Caledônia"
+
+#: core/helpers/countries.py:206
+msgid "New Zealand"
+msgstr "Nova Zelândia"
+
+#: core/helpers/countries.py:207
+msgid "Nicaragua"
+msgstr "Nicarágua"
+
+#: core/helpers/countries.py:208
+msgid "Niger"
+msgstr "Níger"
+
+#: core/helpers/countries.py:209
+msgid "Nigeria"
+msgstr "Nigéria"
+
+#: core/helpers/countries.py:210
+msgid "Niue"
+msgstr "Niue"
+
+#: core/helpers/countries.py:211
+msgid "Norfolk Island"
+msgstr "Ilha Norfolk"
+
+#: core/helpers/countries.py:212
+msgid "Northern Ireland"
+msgstr "Irlanda do Norte"
+
+#: core/helpers/countries.py:213
+msgid "Northern Mariana Islands"
+msgstr "Ilhas Marianas do Norte"
+
+#: core/helpers/countries.py:214
+msgid "Norway"
+msgstr "Noruega"
+
+#: core/helpers/countries.py:215
+msgid "Oman"
+msgstr "Omã"
+
+#: core/helpers/countries.py:216
+msgid "Pakistan"
+msgstr "Paquistão"
+
+#: core/helpers/countries.py:217
+msgid "Palau"
+msgstr "Palau"
+
+#: core/helpers/countries.py:218
+msgid "Palestinian Authority"
+msgstr "autoridade Palestina"
+
+#: core/helpers/countries.py:220
+msgid "Papua New Guinea"
+msgstr "Papua Nova Guiné"
+
+#: core/helpers/countries.py:223
+msgid "Philippines"
+msgstr "Filipinas"
+
+#: core/helpers/countries.py:224
+msgid "Pitcairn Islands"
+msgstr "Ilhas Pitcairn"
+
+#: core/helpers/countries.py:225
+msgid "Poland"
+msgstr "Polônia"
+
+#: core/helpers/countries.py:228
+msgid "Qatar"
+msgstr "Catar"
+
+#: core/helpers/countries.py:229
+msgid "Réunion"
+msgstr "Reunião"
+
+#: core/helpers/countries.py:230
+msgid "Romania"
+msgstr "Romênia"
+
+#: core/helpers/countries.py:231
+msgid "Russia"
+msgstr "Rússia"
+
+#: core/helpers/countries.py:232
+msgid "Rwanda"
+msgstr "Ruanda"
+
+#: core/helpers/countries.py:233
+msgid "Saint Barthélemy"
+msgstr "São Bartolomeu"
+
+#: core/helpers/countries.py:234
+msgid "Saint Helena"
+msgstr "Santa Helena"
+
+#: core/helpers/countries.py:235
+msgid "Saint Kitts and Nevis"
+msgstr "São Cristóvão e Nevis"
+
+#: core/helpers/countries.py:236
+msgid "Saint Lucia"
+msgstr "Santa Lúcia"
+
+#: core/helpers/countries.py:237
+msgid "Saint Martin (French part)"
+msgstr "São Martinho (parte francesa)"
+
+#: core/helpers/countries.py:238
+msgid "Saint Pierre and Miquelon"
+msgstr "São Pedro e Miquelon"
+
+#: core/helpers/countries.py:239
+msgid "Saint Vincent and the Grenadines"
+msgstr "São Vicente e Granadinas"
+
+#: core/helpers/countries.py:240
+msgid "Samoa"
+msgstr "Samoa"
+
+#: core/helpers/countries.py:241
+msgid "San Marino"
+msgstr "São Marinho"
+
+#: core/helpers/countries.py:242
+msgid "São Tomé and Príncipe"
+msgstr "São Tomé e Príncipe"
+
+#: core/helpers/countries.py:243
+msgid "Saudi Arabia"
+msgstr "Arábia Saudita"
+
+#: core/helpers/countries.py:244
+msgid "Scotland"
+msgstr "Escócia"
+
+#: core/helpers/countries.py:245
+msgid "Senegal"
+msgstr "Senegal"
+
+#: core/helpers/countries.py:246
+msgid "Serbia"
+msgstr "Sérvia"
+
+#: core/helpers/countries.py:247
+msgid "Seychelles"
+msgstr "Seicheles"
+
+#: core/helpers/countries.py:248
+msgid "Sierra Leone"
+msgstr "Serra Leoa"
+
+#: core/helpers/countries.py:249
+msgid "Singapore"
+msgstr "Cingapura"
+
+#: core/helpers/countries.py:250
+msgid "Sint Maarten (Dutch part)"
+msgstr "Sint Maarten (parte holandesa)"
+
+#: core/helpers/countries.py:251
+msgid "Slovakia"
+msgstr "Eslováquia"
+
+#: core/helpers/countries.py:252
+msgid "Slovenia"
+msgstr "Eslovênia"
+
+#: core/helpers/countries.py:253
+msgid "Solomon Islands"
+msgstr "Ilhas Salomão"
+
+#: core/helpers/countries.py:254
+msgid "Somalia"
+msgstr "Somália"
+
+#: core/helpers/countries.py:255
+msgid "South Africa"
+msgstr "África do Sul"
+
+#: core/helpers/countries.py:256
+msgid "South Georgia and the South Sandwich Islands"
+msgstr "Ilhas Geórgia do Sul e Sandwich do Sul"
+
+#: core/helpers/countries.py:258
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: core/helpers/countries.py:259
+msgid "Sudan"
+msgstr "Sudão"
+
+#: core/helpers/countries.py:260
+msgid "Suriname"
+msgstr "Suriname"
+
+#: core/helpers/countries.py:261
+msgid "Svalbard and Jan Mayen"
+msgstr "Svalbard e Jan Mayen"
+
+#: core/helpers/countries.py:262
+msgid "Swaziland"
+msgstr "Suazilândia"
+
+#: core/helpers/countries.py:263
+msgid "Sweden"
+msgstr "Suécia"
+
+#: core/helpers/countries.py:264
+msgid "Switzerland"
+msgstr "Suíça"
+
+#: core/helpers/countries.py:265
+msgid "Syria"
+msgstr "Síria"
+
+#: core/helpers/countries.py:266
+msgid "Republic of China (Taiwan)"
+msgstr "República da China (Taiwan)"
+
+#: core/helpers/countries.py:267
+msgid "Tajikistan"
+msgstr "Tajiquistão"
+
+#: core/helpers/countries.py:268
+msgid "Tanzania"
+msgstr "Tanzânia"
+
+#: core/helpers/countries.py:269
+msgid "Thailand"
+msgstr "Tailândia"
+
+#: core/helpers/countries.py:270
+msgid "Timor-Leste"
+msgstr "Timor-Leste"
+
+#: core/helpers/countries.py:271
+msgid "Togo"
+msgstr "Togo"
+
+#: core/helpers/countries.py:272
+msgid "Tokelau"
+msgstr "Toquelau"
+
+#: core/helpers/countries.py:273
+msgid "Tonga"
+msgstr "Tonga"
+
+#: core/helpers/countries.py:274
+msgid "Trinidad and Tobago"
+msgstr "Trindade e Tobago"
+
+#: core/helpers/countries.py:275
+msgid "Tunisia"
+msgstr "Tunísia"
+
+#: core/helpers/countries.py:276
+msgid "Turkey"
+msgstr "Turquia"
+
+#: core/helpers/countries.py:277
+msgid "Turkmenistan"
+msgstr "Turcomenistão"
+
+#: core/helpers/countries.py:278
+msgid "Turks and Caicos Islands"
+msgstr "Ilhas Turcas e Caicos"
+
+#: core/helpers/countries.py:279
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: core/helpers/countries.py:280
+msgid "Uganda"
+msgstr "Uganda"
+
+#: core/helpers/countries.py:281
+msgid "Ukraine"
+msgstr "Ucrânia"
+
+#: core/helpers/countries.py:282
+msgid "United Arab Emirates"
+msgstr "Emirados Árabes Unidos"
+
+#: core/helpers/countries.py:283
+msgid "United Kingdom"
+msgstr "Reino Unido"
+
+#: core/helpers/countries.py:284
+msgid "United States"
+msgstr "Estados Unidos"
+
+#: core/helpers/countries.py:285
+msgid "United States Minor Outlying Islands"
+msgstr "Ilhas Menores Distantes dos Estados Unidos"
+
+#: core/helpers/countries.py:286
+msgid "United States Virgin Islands"
+msgstr "Ilhas Virgens dos Estados Unidos"
+
+#: core/helpers/countries.py:288
+msgid "Uzbekistan"
+msgstr "Uzbequistão"
+
+#: core/helpers/countries.py:289
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: core/helpers/countries.py:290
+msgid "Vatican City State"
+msgstr "Estado da Cidade do Vaticano"
+
+#: core/helpers/countries.py:292
+msgid "Vietnam"
+msgstr "Vietnã"
+
+#: core/helpers/countries.py:293
+msgid "Wales"
+msgstr "País de Gales"
+
+#: core/helpers/countries.py:294
+msgid "Wallis and Futuna"
+msgstr "Wallis e Futuna"
+
+#: core/helpers/countries.py:295
+msgid "Western Sahara"
+msgstr "Saara Ocidental"
+
+#: core/helpers/countries.py:296
+msgid "Yemen"
+msgstr "Iêmen"
+
+#: core/helpers/countries.py:297
+msgid "Zambia"
+msgstr "Zâmbia"
+
+#: core/helpers/countries.py:298
+msgid "Zimbabwe"
+msgstr "Zimbábue"
+
+#: core/helpers/email_thread.py:52
+msgid "Login to your account"
+msgstr "Para mais informações sobre sua conta"
+
+#: core/helpers/email_thread.py:54
+msgid "If you have any questions, please "
+msgstr ""
+
+#: core/helpers/email_thread.py:55
+msgid "contact us"
+msgstr ""
+
+#: core/helpers/email_thread.py:58
+msgid "Inlaze team"
+msgstr "Equipe Inlazz"
+
+#: core/helpers/email_thread.py:59
+msgid "All rights reserved."
+msgstr ""
+
+#: core/helpers/email_thread.py:67
+msgid "Your change request to Prime account"
+msgstr ""
+
+#: core/helpers/email_thread.py:68
+msgid "Your financial information"
+msgstr ""
+
+#: core/helpers/email_thread.py:71
+msgid "approved"
+msgstr ""
+
+#: core/helpers/email_thread.py:73
+msgid "rejected"
+msgstr ""
+
+#: core/helpers/email_thread.py:80
+msgid "Welcome to Inlaze!"
+msgstr ""
+
+#: core/helpers/email_thread.py:82
+msgid "The submitted data has been rejected"
+msgstr ""
+
+#: core/helpers/email_thread.py:86
+msgid "{} has been {}"
+msgstr ""
+
+#: core/helpers/languages.py:8
+msgid "Abkhazian"
+msgstr ""
+
+#: core/helpers/languages.py:9
+msgid "Afar"
+msgstr ""
+
+#: core/helpers/languages.py:10
+msgid "Afrikaans"
+msgstr ""
+
+#: core/helpers/languages.py:11
+msgid "Akan"
+msgstr ""
+
+#: core/helpers/languages.py:12
+msgid "Albanian"
+msgstr "Albânia"
+
+#: core/helpers/languages.py:13
+msgid "Amharic"
+msgstr ""
+
+#: core/helpers/languages.py:14
+msgid "Arabic"
+msgstr ""
+
+#: core/helpers/languages.py:15
+msgid "Aragonese"
+msgstr ""
+
+#: core/helpers/languages.py:16
+msgid "Armenian"
+msgstr "Armênia"
+
+#: core/helpers/languages.py:17
+msgid "Avaric"
+msgstr ""
+
+#: core/helpers/languages.py:18
+msgid "Avestan"
+msgstr ""
+
+#: core/helpers/languages.py:19
+msgid "Aymara"
+msgstr ""
+
+#: core/helpers/languages.py:20
+msgid "Azerbaijani"
+msgstr "Azerbaijão"
+
+#: core/helpers/languages.py:21
+msgid "Bambara"
+msgstr ""
+
+#: core/helpers/languages.py:22
+msgid "Bashkir"
+msgstr ""
+
+#: core/helpers/languages.py:23
+msgid "Basque"
+msgstr ""
+
+#: core/helpers/languages.py:24
+msgid "Belarusian"
+msgstr "Bielorrússia"
+
+#: core/helpers/languages.py:25
+msgid "Bengali"
+msgstr ""
+
+#: core/helpers/languages.py:26
+msgid "Bihari languages"
+msgstr ""
+
+#: core/helpers/languages.py:27
+msgid "Bislama"
+msgstr ""
+
+#: core/helpers/languages.py:28
+msgid "Bosnian"
+msgstr ""
+
+#: core/helpers/languages.py:29
+msgid "Breton"
+msgstr ""
+
+#: core/helpers/languages.py:30
+msgid "Bulgarian"
+msgstr "Bulgária"
+
+#: core/helpers/languages.py:31
+msgid "Burmese"
+msgstr ""
+
+#: core/helpers/languages.py:32
+msgid "Catalan"
+msgstr ""
+
+#: core/helpers/languages.py:33
+msgid "Central Khmer"
+msgstr ""
+
+#: core/helpers/languages.py:34
+msgid "Chamorro"
+msgstr ""
+
+#: core/helpers/languages.py:35
+msgid "Chechen"
+msgstr ""
+
+#: core/helpers/languages.py:36
+msgid "Chinese"
+msgstr ""
+
+#: core/helpers/languages.py:37
+msgid "Chuvash"
+msgstr ""
+
+#: core/helpers/languages.py:38
+msgid "Cornish"
+msgstr ""
+
+#: core/helpers/languages.py:39
+msgid "Corsican"
+msgstr ""
+
+#: core/helpers/languages.py:40
+msgid "Cree"
+msgstr ""
+
+#: core/helpers/languages.py:41
+msgid "Croatian"
+msgstr "Croácia"
+
+#: core/helpers/languages.py:42
+msgid "Czech"
+msgstr ""
+
+#: core/helpers/languages.py:43
+msgid "Danish"
+msgstr "Espanhol"
+
+#: core/helpers/languages.py:44
+msgid "Dzongkha"
+msgstr ""
+
+#: core/helpers/languages.py:46
+msgid "Esperanto"
+msgstr ""
+
+#: core/helpers/languages.py:47
+msgid "Estonian"
+msgstr "Estônia"
+
+#: core/helpers/languages.py:48
+msgid "Ewe"
+msgstr ""
+
+#: core/helpers/languages.py:49
+msgid "Faroese"
+msgstr "ilhas Faroe"
+
+#: core/helpers/languages.py:50
+msgid "Fijian"
+msgstr "Fiji"
+
+#: core/helpers/languages.py:51
+msgid "Finnish"
+msgstr ""
+
+#: core/helpers/languages.py:52
+msgid "Dutch; Flemish"
+msgstr ""
+
+#: core/helpers/languages.py:53
+msgid "French"
+msgstr "Guiana Francesa"
+
+#: core/helpers/languages.py:54
+msgid "Fulah"
+msgstr ""
+
+#: core/helpers/languages.py:55
+msgid "Galician"
+msgstr ""
+
+#: core/helpers/languages.py:56
+msgid "Ganda"
+msgstr "Ruanda"
+
+#: core/helpers/languages.py:57
+msgid "Georgian"
+msgstr "Geórgia"
+
+#: core/helpers/languages.py:58
+msgid "German"
+msgstr "Alemanha"
+
+#: core/helpers/languages.py:59
+msgid "Kalaallisut; Greenlandic"
+msgstr ""
+
+#: core/helpers/languages.py:60
+msgid "Guarani"
+msgstr ""
+
+#: core/helpers/languages.py:61
+msgid "Gujarati"
+msgstr ""
+
+#: core/helpers/languages.py:62
+msgid "Haitian; Haitian Creole"
+msgstr ""
+
+#: core/helpers/languages.py:63
+msgid "Hausa"
+msgstr ""
+
+#: core/helpers/languages.py:64
+msgid "Hebrew"
+msgstr ""
+
+#: core/helpers/languages.py:65
+msgid "Herero"
+msgstr ""
+
+#: core/helpers/languages.py:66
+msgid "Hindi"
+msgstr ""
+
+#: core/helpers/languages.py:67
+msgid "Hiri Motu"
+msgstr ""
+
+#: core/helpers/languages.py:68
+msgid "Hungarian"
+msgstr "Hungria"
+
+#: core/helpers/languages.py:69
+msgid "Ido"
+msgstr ""
+
+#: core/helpers/languages.py:70
+msgid "Igbo"
+msgstr ""
+
+#: core/helpers/languages.py:71
+msgid "Indonesian"
+msgstr "Indonésia"
+
+#: core/helpers/languages.py:72
+msgid "Interlingua"
+msgstr ""
+
+#: core/helpers/languages.py:73
+msgid "Interlingue; Occidental"
+msgstr ""
+
+#: core/helpers/languages.py:74
+msgid "Inuktitut"
+msgstr ""
+
+#: core/helpers/languages.py:75
+msgid "Inupiaq"
+msgstr ""
+
+#: core/helpers/languages.py:76
+msgid "Irish"
+msgstr ""
+
+#: core/helpers/languages.py:77
+msgid "Italian"
+msgstr "Itália"
+
+#: core/helpers/languages.py:78
+msgid "Japanese"
+msgstr "Japão"
+
+#: core/helpers/languages.py:79
+msgid "Javanese"
+msgstr ""
+
+#: core/helpers/languages.py:80
+msgid "Kannada"
+msgstr "Canadá"
+
+#: core/helpers/languages.py:81
+msgid "Kanuri"
+msgstr ""
+
+#: core/helpers/languages.py:82
+msgid "Kashmiri"
+msgstr ""
+
+#: core/helpers/languages.py:83
+msgid "Kazakh"
+msgstr "Cazaquistão"
+
+#: core/helpers/languages.py:84
+msgid "Kikuyu; Gikuyu"
+msgstr ""
+
+#: core/helpers/languages.py:85
+msgid "Kinyarwanda"
+msgstr ""
+
+#: core/helpers/languages.py:86
+msgid "Komi"
+msgstr ""
+
+#: core/helpers/languages.py:87
+msgid "Kongo"
+msgstr "Mongólia"
+
+#: core/helpers/languages.py:88
+msgid "Korean"
+msgstr ""
+
+#: core/helpers/languages.py:89
+msgid "Kurdish"
+msgstr ""
+
+#: core/helpers/languages.py:90
+msgid "Kuanyama; Kwanyama"
+msgstr ""
+
+#: core/helpers/languages.py:91
+msgid "Kirghiz; Kyrgyz"
+msgstr ""
+
+#: core/helpers/languages.py:92
+msgid "Lao"
+msgstr "Laos"
+
+#: core/helpers/languages.py:93
+msgid "Latin"
+msgstr ""
+
+#: core/helpers/languages.py:94
+msgid "Latvian"
+msgstr "Letônia"
+
+#: core/helpers/languages.py:95
+msgid "Limburgan; Limburger; Limburgish"
+msgstr ""
+
+#: core/helpers/languages.py:96
+msgid "Lingala"
+msgstr ""
+
+#: core/helpers/languages.py:97
+msgid "Lithuanian"
+msgstr "Lituânia"
+
+#: core/helpers/languages.py:98
+msgid "Luba-Katanga"
+msgstr ""
+
+#: core/helpers/languages.py:99
+msgid "Luxembourgish; Letzeburgesch"
+msgstr ""
+
+#: core/helpers/languages.py:100
+msgid "Macedonian"
+msgstr "Macedônia"
+
+#: core/helpers/languages.py:101
+msgid "Malagasy"
+msgstr "Madagáscar"
+
+#: core/helpers/languages.py:102
+msgid "Malay"
+msgstr "Malásia"
+
+#: core/helpers/languages.py:103
+msgid "Malayalam"
+msgstr "Malásia"
+
+#: core/helpers/languages.py:104
+msgid "Maldivian"
+msgstr "Maldivas"
+
+#: core/helpers/languages.py:105
+msgid "Maltese"
+msgstr "Malta"
+
+#: core/helpers/languages.py:106
+msgid "Manx"
+msgstr ""
+
+#: core/helpers/languages.py:107
+msgid "Maori"
+msgstr ""
+
+#: core/helpers/languages.py:108
+msgid "Marathi"
+msgstr ""
+
+#: core/helpers/languages.py:109
+msgid "Marshallese"
+msgstr "Ilhas Marshall"
+
+#: core/helpers/languages.py:110
+msgid "Mongolian"
+msgstr "Mongólia"
+
+#: core/helpers/languages.py:112
+msgid "Navajo; Navaho"
+msgstr ""
+
+#: core/helpers/languages.py:113
+msgid "Ndonga"
+msgstr "Tonga"
+
+#: core/helpers/languages.py:114
+msgid "Nepali"
+msgstr "Nepal"
+
+#: core/helpers/languages.py:115
+msgid "Northern Sami"
+msgstr "Irlanda do Norte"
+
+#: core/helpers/languages.py:116
+msgid "Norwegian"
+msgstr "Noruega"
+
+#: core/helpers/languages.py:117
+msgid "Chichewa; Chewa; Nyanja"
+msgstr ""
+
+#: core/helpers/languages.py:118
+msgid "Occitan (post 1500)"
+msgstr ""
+
+#: core/helpers/languages.py:119
+msgid "Ojibwa"
+msgstr ""
+
+#: core/helpers/languages.py:120
+msgid "Oromo"
+msgstr ""
+
+#: core/helpers/languages.py:121
+msgid "Ossetian; Ossetic"
+msgstr ""
+
+#: core/helpers/languages.py:122
+msgid "Pali"
+msgstr ""
+
+#: core/helpers/languages.py:123
+msgid "Pushto; Pashto"
+msgstr ""
+
+#: core/helpers/languages.py:124
+msgid "Persian"
+msgstr ""
+
+#: core/helpers/languages.py:125
+msgid "Polish"
+msgstr "Inglês"
+
+#: core/helpers/languages.py:127
+msgid "Panjabi; Punjabi"
+msgstr ""
+
+#: core/helpers/languages.py:128
+msgid "Quechua"
+msgstr ""
+
+#: core/helpers/languages.py:129
+msgid "Romanian; Moldavian; Moldovan"
+msgstr ""
+
+#: core/helpers/languages.py:130
+msgid "Romansh"
+msgstr "Romênia"
+
+#: core/helpers/languages.py:131
+msgid "Rundi"
+msgstr "Burundi"
+
+#: core/helpers/languages.py:132
+msgid "Russian"
+msgstr "Rússia"
+
+#: core/helpers/languages.py:133
+msgid "Samoan"
+msgstr "Samoa"
+
+#: core/helpers/languages.py:134
+msgid "Sango"
+msgstr ""
+
+#: core/helpers/languages.py:135
+msgid "Sanskrit"
+msgstr ""
+
+#: core/helpers/languages.py:136
+msgid "Sardinian"
+msgstr ""
+
+#: core/helpers/languages.py:137
+msgid "Scottish"
+msgstr ""
+
+#: core/helpers/languages.py:138
+msgid "Serbian"
+msgstr "Sérvia"
+
+#: core/helpers/languages.py:139
+msgid "Shona"
+msgstr ""
+
+#: core/helpers/languages.py:140
+msgid "Sichuan Yi; Nuosu"
+msgstr ""
+
+#: core/helpers/languages.py:141
+msgid "Sindhi"
+msgstr ""
+
+#: core/helpers/languages.py:142
+msgid "Sinhala; Sinhalese"
+msgstr ""
+
+#: core/helpers/languages.py:143
+msgid "Slovak"
+msgstr "Eslováquia"
+
+#: core/helpers/languages.py:144
+msgid "Slovenian"
+msgstr "Eslovênia"
+
+#: core/helpers/languages.py:145
+msgid "Somali"
+msgstr "Somália"
+
+#: core/helpers/languages.py:147
+msgid "Sundanese"
+msgstr ""
+
+#: core/helpers/languages.py:148
+msgid "Swahili"
+msgstr ""
+
+#: core/helpers/languages.py:149
+msgid "Swati"
+msgstr ""
+
+#: core/helpers/languages.py:150
+msgid "Swedish"
+msgstr "Suécia"
+
+#: core/helpers/languages.py:151
+msgid "Tagalog"
+msgstr ""
+
+#: core/helpers/languages.py:152
+msgid "Tahitian"
+msgstr ""
+
+#: core/helpers/languages.py:153
+msgid "Tajik"
+msgstr "Tajiquistão"
+
+#: core/helpers/languages.py:154
+msgid "Tamil"
+msgstr ""
+
+#: core/helpers/languages.py:155
+msgid "Tatar"
+msgstr "Catar"
+
+#: core/helpers/languages.py:156
+msgid "Telugu"
+msgstr ""
+
+#: core/helpers/languages.py:157
+msgid "Thai"
+msgstr "Tailândia"
+
+#: core/helpers/languages.py:158
+msgid "Tibetan"
+msgstr ""
+
+#: core/helpers/languages.py:159
+msgid "Tigrinya"
+msgstr ""
+
+#: core/helpers/languages.py:160
+msgid "Tonga (Tonga Islands)"
+msgstr "Ilhas Salomão"
+
+#: core/helpers/languages.py:161
+msgid "Tsonga"
+msgstr "Tonga"
+
+#: core/helpers/languages.py:162
+msgid "Tswana"
+msgstr "Botsuana"
+
+#: core/helpers/languages.py:163
+msgid "Turkish"
+msgstr "Turcomenistão"
+
+#: core/helpers/languages.py:164
+msgid "Turkmen"
+msgstr "Turquia"
+
+#: core/helpers/languages.py:165
+msgid "Twi"
+msgstr ""
+
+#: core/helpers/languages.py:166
+msgid "Ukrainian"
+msgstr "Ucrânia"
+
+#: core/helpers/languages.py:167
+msgid "Urdu"
+msgstr ""
+
+#: core/helpers/languages.py:168
+msgid "Uighur; Uyghur"
+msgstr ""
+
+#: core/helpers/languages.py:169
+msgid "Uzbek"
+msgstr "Uzbequistão"
+
+#: core/helpers/languages.py:170
+msgid "Venda"
+msgstr ""
+
+#: core/helpers/languages.py:171
+msgid "Vietnamese"
+msgstr "Vietnã"
+
+#: core/helpers/languages.py:172
+msgid "Volapük"
+msgstr ""
+
+#: core/helpers/languages.py:173
+msgid "Walloon"
+msgstr ""
+
+#: core/helpers/languages.py:174
+msgid "Welsh"
+msgstr ""
+
+#: core/helpers/languages.py:175
+msgid "Wolof"
+msgstr ""
+
+#: core/helpers/languages.py:176
+msgid "Xhosa"
+msgstr ""
+
+#: core/helpers/languages.py:177
+msgid "Yiddish"
+msgstr ""
+
+#: core/helpers/languages.py:178
+msgid "Yoruba"
+msgstr "Aruba"
+
+#: core/helpers/languages.py:179
+msgid "Zhuang; Chuang"
+msgstr ""
+
+#: core/helpers/languages.py:180
+msgid "Zulu"
+msgstr ""
+
+#: core/helpers/sendgrid.py:25
+#| msgid ""
+#| "Your code is {}. Never share this code with anyone, only use it at inlaze."
+#| "com."
+msgid ""
+"Your code is {}. Never share this code with anyone, only use it at inlaze.com"
+msgstr ""
+"Seu código é {}. Nunca compartilhe este código com ninguém, use-o apenas no "
+"inlaze.com"
+
+#: core/helpers/sendgrid.py:46 core/helpers/sendgrid.py:85
+#: core/helpers/sendgrid.py:97 core/helpers/sendgrid.py:124
+msgid "Error while sending the message"
+msgstr "Erro ao enviar mensagem"
+
+#: core/helpers/validator_rules/password_requirements.py:14
+#: core/helpers/validator_rules/password_requirements.py:20
+msgid ""
+"The password must meet the next requirements:8 characters, at least 1 "
+"uppercase letter, at least one special character, at least 1 alphanumeric "
+"characters."
+msgstr ""
+"A senha deve atender aos seguintes requisitos: 8 caracteres, pelo menos 1 "
+"letra maiúscula, pelo menos um caracter especial, pelo menos 1 caracter "
+"alfanumérico."
+
+#: core/serializers/user.py:116 core/serializers/user.py:266
+msgid "Old password is not correct"
+msgstr "A senha antiga não é correta"
+
+#: core/serializers/user.py:279
+msgid "The password cannot be equal to email"
+msgstr "A senha não pode ser igual a e-mail"
+
+#~ msgid "You need to send at least one file"
+#~ msgstr "Você precisa enviar pelo menos um arquivo"
+
+#~ msgid "There is not such company for that user in the system"
+#~ msgstr "Não existe tal empresa para esse usuário no sistema"
+
+#~ msgid "There are not such company documents for that user in the system"
+#~ msgstr "Não existem tais documentos da empresa para esse usuário no sistema"
+
+#~ msgid "Validation account"
+#~ msgstr "Conta de validação"
+
+#~ msgid "There is not such adviser in the system"
+#~ msgstr "Não existe tal consultor no sistema"

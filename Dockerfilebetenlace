@@ -1,0 +1,42 @@
+FROM python:3.9
+LABEL mantainer="juanpabloperezdevelopment@gmail.com"
+ENV PYTHONUNBUFFERED 1
+COPY ./requirements.txt /requirements.txt
+COPY . /app
+COPY ./scripts /scripts
+
+WORKDIR /app
+EXPOSE 8000
+
+RUN apt update && \
+    apt install -y lsb-release ca-certificates gnupg
+
+RUN wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | \
+    gpg --dearmor | \
+    tee /etc/apt/trusted.gpg.d/apt.postgresql.org.gpg >/dev/null
+
+RUN echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list
+
+RUN apt update
+
+RUN apt install -y postgresql-client-14
+
+RUN python -m venv /py && \
+    /py/bin/python -m pip install --upgrade pip
+
+RUN /py/bin/pip install -r ./requirements.txt && \
+    apt -y install gettext && \
+    useradd -m user_test | chpasswd && adduser user_test sudo && \
+    mkdir -p /app/media && \
+    chown -R user_test:user_test /app/media && \
+    chmod -R 755 /app/media
+
+RUN chmod -R +x /scripts
+
+ENV PATH="/scripts:/py/bin:$PATH"
+
+USER user_test
+
+VOLUME /app/media
+
+CMD ["run_betenlace.sh"]

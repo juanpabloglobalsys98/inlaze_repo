@@ -1,0 +1,102 @@
+<div
+	style="
+		width: 950px;
+		font-family: Arial, Helvetica, sans-serif;
+		margin: 0 auto;
+	"
+>
+	<header style="padding: 50px; background-color: black; text-align: center">
+		<img width="400px" src="{{TEMPLATE_HEADER_LOGO}}" alt="" />
+	</header>
+	<article style="background-color: #f1f1f1">
+		<section
+			style="
+				width: 500px;
+				background-color: white;
+				padding: 90px 20px 70px;
+				color: #6d6f71;
+				margin: 0 auto;
+			"
+		>
+			<div style="margin-bottom: 40px">
+				<span>{{GREETING}}</span>
+				<span style="font-weight: bold"> {{PARTNER_FULL_NAME}} </span>
+			</div>
+			<p style="margin-bottom: 40px">{{CUSTOMER_MESSAGE}}</p>
+			<div style="text-align: center; margin-bottom: 40px">
+				<a
+					href="{{BETENLACE_LOGIN}}"
+					target="_blank"
+					rel="noopener noreferrer"
+					style="
+						border-radius: 50px;
+						background-color: #00ce81;
+						color: white;
+						border: none;
+						padding: 20px;
+						font-weight: bold;
+						cursor: pointer;
+						text-decoration: none;
+						font-size: 16px;
+					"
+				>
+					{{LOGIN_MESSAGE}}
+				</a>
+			</div>
+			<div
+				style="
+					background-color: #fcf2d1;
+					padding: 15px;
+					width: 70%;
+					margin: 0 auto;
+				"
+			>
+				<p style="margin-bottom: 25px">{{ADVISER_INFO}}</p>
+				<ul>
+					<li style="font-weight: bold; margin-bottom: 15px">
+						{{ADVISER_FULL_NAME}}
+					</li>
+					<li style="font-weight: bold; margin-bottom: 15px">
+						{{ADVISER_EMAIL}}
+					</li>
+					<li style="font-weight: bold; margin-bottom: 15px">
+						{{ADVISER_PHONE}}
+					</li>
+				</ul>
+			</div>
+			<div style="margin-top: 40px">
+				<span>{{FOOTER_MESSAGE_PART_1}}</span><br />
+				<span>{{FOOTER_MESSAGE_PART_2}}</span>
+			</div>
+		</section>
+	</article>
+	<footer style="text-align: center; color: #6d6f71; padding-bottom: 80px">
+		<img
+			style="margin: 35px 0 55px"
+			width="220px"
+			src="{{TEMPLATE_FOOTER_LOGO}}"
+			alt=""
+		/>
+		<div>
+			<span> {{FOOTER_MESSAGE_PART_3}} </span>
+			<a
+				style="color: #2683f0"
+				href="{{CUSTOMER_SERVICE_CHAT}}"
+				target="_blank"
+				rel="noopener noreferrer"
+				>{{CUSTOMER_SERVICE}}</a
+			>
+		</div>
+		<div>
+			<span>{{FOOTER_MESSAGE_PART_4}}</span>
+			<a
+				style="color: #2683f0"
+				href="{{COMPANY_URL}}"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				{{FOOTER_MESSAGE_PART_5}}
+			</a>
+		</div>
+	</footer>
+</div>

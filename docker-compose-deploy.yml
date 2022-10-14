@@ -1,0 +1,69 @@
+version: '3.9'
+services:
+  db:
+    image: postgres
+    restart: always
+    environment: 
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+    ports: 
+      - 5432:5432
+    volumes:
+      - ./docker_postgres_init.sql:/docker-entrypoint-initdb.d/docker_postgres_init.sql
+      - postgres-data:/var/lib/postgresql/data
+  app_betenlace:
+    build:
+      context: .
+      dockerfile: Dockerfilebetenlace
+    restart: always
+    depends_on: 
+      - db
+    volumes: 
+      - .:/app
+      - static-data:/app/media
+    environment:
+      - DJANGO_ROOT=${DJANGO_ROOT}
+      - DJANGO_APP_NAME=${DJANGO_APP_NAME}
+      - CELERY_WORKER_LOG_LEVEL=${CELERY_WORKER_LOG_LEVEL}
+      - CELERY_BEAT_LOG_LEVEL=${CELERY_BEAT_LOG_LEVEL}
+      - SUPERVISOR_LOG_LEVEL=${SUPERVISOR_LOG_LEVEL}
+      - USER_SUPERVISOR=${USER_SUPERVISOR}
+      - PYTHON_BIN_DIR=${PYTHON_BIN_DIR}
+      - DJANGO_SETTINGS_MODULE=${DJANGO_SETTINGS_MODULE_BETENLACE}
+  app_redirect:
+    build:
+      context: .
+      dockerfile: Dockerfileredirect
+    restart: always
+    depends_on: 
+      - app_betenlace
+    volumes: 
+      - .:/app
+    environment:
+      - DJANGO_SETTINGS_MODULE=${DJANGO_SETTINGS_MODULE_REDIRECT}
+  nginx:
+    build:
+      context: ./proxy
+    restart: always
+    depends_on: 
+      - app_betenlace
+    ports: 
+      - 80:8000
+      - 443:443
+    volumes: 
+      - static-data:/vol/media/
+  redis:
+    image: "redis:alpine"
+    restart: always
+    ports: 
+      - 6379:6379
+    volumes:
+      - .redis.conf:/usr/local/etc/redis/redis.conf
+    environment:
+     - REDIS_REPLICATION_MODE=master
+
+volumes:
+  postgres-data:
+  static-data:
+  

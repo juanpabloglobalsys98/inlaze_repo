@@ -1,0 +1,37 @@
+version: '3.9'
+services:
+  db:
+    image: postgres
+    restart: always
+    environment: 
+      - POSTGRES_DB=defaultdb
+      - POSTGRES_USER=defaultuser
+      - POSTGRES_PASSWORD=defaultuser123
+    ports: 
+      - 5432:5432
+    volumes:
+      - ./docker_postgres_init.sql:/docker-entrypoint-initdb.d/docker_postgres_init.sql
+  app:
+    build:
+      context: .
+    command: >
+            sh -c "python manage.py makemigrations &&
+                  python manage.py migrate --database=default &&
+                  python manage.py migrate --database=admin &&
+                  python manage.py runserver 0.0.0.0:8000"
+    ports:
+      - 8000:8000
+    volumes: 
+      - .:/app
+    environment: 
+      - DJANGO_ROOT=/app
+      - DJANGO_APP_NAME=betenlace
+      - CELERY_WORKER_LOG_LEVEL=WARNING
+      - CELERY_BEAT_LOG_LEVEL=INFO
+      - SUPERVISOR_LOG_LEVEL=INFO
+      - USER_SUPERVISOR=root
+      - PYTHON_BIN_DIR=/usr/local/bin
+    depends_on:
+      - db
+  
+  

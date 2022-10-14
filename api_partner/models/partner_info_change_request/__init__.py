@@ -1,0 +1,2 @@
+from .partner_bank_validation import PartnerBankValidationRequest
+from .partner_info_validation import PartnerInfoValidationRequest

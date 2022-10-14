@@ -1,0 +1,1 @@
+from .partnertermsserializer import PartnerTermsSer
